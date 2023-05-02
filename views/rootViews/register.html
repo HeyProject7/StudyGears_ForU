@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/register.css" />
+</head>
+
+<body>
+    <section class="register">
+        <a class="navigate__back__btn" href="./login_signIn.html">
+            <img src="./images/navigate__back__button.png" alt="">
+        </a>
+        <div class="register__left">
+            <img src="./images/sign_up_left62.jpg" alt="">
+        </div>
+        <div class="container register__right">
+            <div class="logo__container">
+                <!-- jdfjhjh -->
+            </div>
+            <div class="register__container">
+                <h2 class="sign__header">Sign Up </h2>
+                <form action="/sign-up.html" class="sign__up__form" method="post">
+                    <div class="user__field">
+                        <img src="./images/person.png" class='field__icon' alt="">
+                        <input type="text" class="user__info__field" name="username" placeholder="Name" required>
+                    </div>
+                    <div class="user__field">
+                        <img src="./images/field__icon__email.png" class='field__icon' alt="">
+                        <input type="email" class="user__info__field" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="user__field">
+                        <img src="./images/field__icon_password.png" class='field__icon' alt="">
+                        <input type="password" class="user__info__field" name="password" placeholder="Password" required>
+                    </div>
+                    <div class="read_term">
+                        <input type="checkbox" name="term">
+                        <p style="display: inline-block;">I read and agree to
+                            <p>Terms & Conditions</p>
+                        </p>
+                    </div>
+                    <input type="submit" value="CREATE ACCOUNT">
+                </form>
+                <div class="sign__up__bottom">
+                    <p>Already Have An Account?
+                        <a href="./login_signIn.html">Sign In</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    // Change Color On Scroll Window
+    window.addEventListener('scroll', () => {
+        document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+    });
+</script>
+
+</html>

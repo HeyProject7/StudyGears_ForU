@@ -1,0 +1,138 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title StudyGears
+  style
+       include ../../public/css/style.css
+       include ../../public/css/videos.css
+       include ../../public/css/shareCourse.css
+  link(rel='stylesheet', href='https://unicons.iconscout.com/release/v4.0.0/css/line.css')    
+// Navbar
+nav
+  .container.nav__container
+    a.nav__icon(href='index.html')
+      h2 StudyGears
+    .coins__head
+      img.coins__icon(src='../../images/coinMe_prev_ui (2).png', alt='')
+      p.coins__value $1000
+    ul.nav__menu
+      li
+        a(href='index.html') Home
+      li
+        a(href='courses.html') Courses
+      li
+        a(href='about.html') About
+      li
+        a(href='contact.html') Contact
+    button#open-menu-btn
+      i.uil.uil-bars
+    button#close-menu-btn
+      i.uil.uil-multiply
+// Popular Courses
+-if(noData){
+  section.courses
+    .container
+      h2 No Course Found
+-}
+-else{
+  section.courses
+    .container
+      h2=course.course_name
+      .course__videos__container.container
+        - for(let index in files)
+          - if(files[index].includes('.mp4'))
+            article.video
+              .video__banner
+                video(src=links[index])
+              .video__title
+                p.video__title(style='backgrund:blue;')=files[index].substr(0,30)+"..."
+                a.uil.uil-play(title='Play This Video', href='/videos/'+index)
+          //- - else
+          //-   article.video
+          //-     .video__banner
+          //-       img(src=links[index], alt='Drive Image')
+          //-     .video__title
+          //-       p.video__title=files[index]
+          //-       a.uil.uil-play(title='Play This Video', href='/videos/'+index)
+-}
+
+
+      
+// Footer
+footer.footer
+  .container.footer__container
+    .footer-1
+      h4
+        a.footer__logo(href='') Studygears
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, at.
+    .footer-2
+      h4 Permalinks
+      ul
+        li
+          a(href='index.html') Home
+        li
+          a(href='courses.html') Cureses
+        li
+          a(href='about.html') About
+        li
+          a(href='contact.html') Contact Us
+    .footer-3
+      h4 Privacy
+      a(href='') Privacy Policy
+      a(href='') Terms And Conditions
+      a(href='') Secuity Policy
+    .footer-4
+      h4 Contact Us
+      div
+        p
+        p +91-7507546319
+        p projectaavs.cpp@gmail.com
+        p
+      ul.footer__social
+        li
+          a(href='#')
+            i.uil.uil-instagram
+        li
+          a(href='#')
+            i.uil.uil-github
+        li
+          a(href='#')
+            i.uil.uil-facebook-f
+  .footer__copyright
+    small Copright &copy; StudyGears 
+
+
+  // Upload File 
+  //- form.upload__tutorial
+  //-   input#files(type='file', name='files', value='file', placeholder='s')
+  //-   button(type='submit') Submit
+ 
+
+  // Upload File 
+  .chat__mint.upload__widget(onclick="location.href='https://trying-new-gchat.musaleshubham7.repl.co/'")
+    i.uil.uil-upload
+  // Global Chat Icon
+  .chat__mint(onclick="location.href='https://trying-new-gchat.musaleshubham7.repl.co/'")
+    i.uil.uil-comments-alt
+  // Share Course  
+  a.uil.uil-share.share__course(href='./shareCourse')
+  // Login User Account
+  .user__login
+    img(src='./images/login__user.png', alt='')
+  
+  script.
+    // Change Color On Scroll Window
+    window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+    });
+    const formElem = document.querySelector('form');
+    formElem.addEventListener('submit', async (e) => {
+        console.log("form submitted")
+      e.preventDefault();
+      await fetch('./upload', {
+        method: 'POST',
+        body: new FormData(formElem),
+      });
+    });

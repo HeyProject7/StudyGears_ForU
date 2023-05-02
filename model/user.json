@@ -1,0 +1,10 @@
+[
+    { "name": "Aditya", "password": "aditya14" },
+    { "username": "Aditya", "roles": { "User": 2001, "Admin": 5150 }, "password": "$2b$10$SgbNaoxgG2AQaXQHBrkGSelYkkwD6udC/m/pAEzKaV4bLTDqS7eo2" },
+    { "username": "Aditya4", "roles": { "User": 2001 }, "password": "$2b$10$2Hpe6pQz1uau0ICJTnluceg6fRn57DDul.zcIuwDpwo0cjLPiU4/O" },
+    {
+        "username": "Mosh",
+        "roles": { "User": 2001, "Admin": 5150 },
+        "password": "$2b$10$q1V9FZYYGUHucol7ckOkQuUceo.6FONUc8RYvZ1748AN5wUzIULTq"
+    }
+]

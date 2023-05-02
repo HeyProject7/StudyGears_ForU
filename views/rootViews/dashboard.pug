@@ -1,0 +1,80 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Admin
+    // IconCout
+    link(rel='stylesheet', href='https://unicons.iconscout.com/release/v4.0.0/css/line.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    // G Fonts
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap', rel='stylesheet')
+    style
+       include ../../public/css/style.css
+       include ../../public/css/dashboard.css
+       include ../../public/css/about.css
+  body
+    // Header
+    session.dashboard
+      .dash__menu
+        .admin__info
+          img.round-radius(src='./images/user__logo.png', alt='')
+          h3.username Admin
+        .menus
+          ul
+            li.text-center.dash__item
+              a.dash__label(href='./dashboard?overview=true') Overview
+            li.text-center.dash__item
+              a.dash__label(href='./dashboard?courses=true') Courses
+            li.text-center.dash__item
+              a.dash__label(href='./dashboard?peoples=true') Peoples
+            li.text-center.dash__item
+              a.dash__label(href='./dashboard?peoples=true') Send Updates
+      .dash__content
+        // Overview
+        -if(overview){
+          .container
+          h2.text-center Overview
+          .overview__container.container
+            article.card.achivement__card
+              .achivement__icon
+                i.uil.uil-presentation-play
+              h3 450+
+              p Courses
+            article.card.achivement__card
+              .achivement__icon
+                i.uil.uil-user-circle
+              h3 1000+
+              p Students
+            article.card.achivement__card
+              .achivement__icon
+                i.uil.uil-user-circle
+              h3 1000+
+              p Premium
+        -}
+        //Courses
+        -if(course || overview){
+          h2.text-center Courses
+          .container.courses__container
+            -for(c of courses){
+            .container
+              article.course
+                .course__image
+                  img.admin__course__image(src=c.course_banner, alt='')
+                p=c.course_name    
+            -}
+        -}
+        // Peoples
+        -if(people||overview){
+          h2.text-center Users
+          -for(p of peoples){
+            .peoples__list
+              .people__item
+                .people__image
+                .people__info
+                  h2.people__name=p.username
+                  p.people__details="Supercoins  : "+p.supercoins
+          -}
+        -}

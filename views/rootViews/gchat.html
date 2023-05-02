@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/gchat.css" rel="stylesheet" type="text/css" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GChat - StudyGears</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav style="background:#6039db;">
+        <div class="container nav__container">
+            <a href="/index.html" class="nav__icon">
+                <h2>StudyGears</h2>
+            </a>
+            <div class="coins__head">
+                <img class="coins__icon" src="./images/coinMe_prev_ui (2).png" alt="">
+                <p class="coins__value">$1000</p>
+            </div>
+            <ul class="nav__menu">
+                <li><img src="/images/focus__icon.png" style="width:2.3rem" class="focus__icon"
+                        onclick="location.href='./focusAnim'" /></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/courses.html">Courses</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <!--    <script  src ="/public/code.js"></script>  -->
+
+    <div class="app">
+        <div class="screen join-screen active">
+            <div class="form">
+                <h2>Join Chatroom</h2>
+                <div class="form-input">
+                    <input type="text" id="username" placeholder="Username">
+                </div>
+                <div class="form-input">
+                    <button id="join-user" class="btn btn-primary">Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="screen chat-screen ">
+            <div class="header">
+                <div class="logo">Chatroom</div>
+                <button id="exit-chat">Exit</button>
+            </div>
+            <div class="messages">
+
+            </div>
+            <div class="typebox">
+                <input type="text" id="message-input">
+                <button id="send-message">Send</button>
+                </input>
+            </div>
+        </div>
+    </div>
+    <script>
+        const app=document.querySelector( ".app" )
+        const socket=io();
+
+        let uname;
+
+        var wq=document.querySelector( " #join-user" )
+        wq.addEventListener( 'click', function ()
+        {
+            let username=document.querySelector( "#username" ).value;
+            if ( username.length==0 )
+            {
+                return;
+
+            }
+            socket.emit( "newuser", username );
+            uname=username;
+            document.querySelector( ".join-screen" ).classList.remove( "active" )
+            document.querySelector( ".chat-screen" ).classList.add( "active" )
+
+        } );
+
+        document.querySelector( "#send-message" ).addEventListener( 'click', function ()
+        {
+            let message=document.querySelector( "#message-input" ).value;
+            if ( message.length==0 )
+            {
+                return;
+            }
+
+            renderMessage( "my", {
+                username: uname,
+                text: message
+            } );
+            socket.emit( "chat", {
+                username: uname,
+                text: message
+            } );
+
+            document.querySelector( "#message-input" ).value="";
+        } );
+
+
+        //exit button
+        app.querySelector( "#exit-chat" ).addEventListener( 'click', function ()
+        {
+            socket.emit( 'exituser', uname );
+            window.location.href=window.location.href;
+
+        } );
+        socket.on( "update", function ( update )
+        {
+            renderMessage( "update", update );
+        } );
+        socket.on( "chat", function ( message )
+        {
+            renderMessage( "other", message );
+        } );
+        socket.on( "outpur-message", function ( ans )
+        {
+            renderMessageForOnRend( "tp", ans );
+        } );
+
+        function renderMessageForOnRend ( type, ans )
+        {
+            let messageContainer=document.querySelector( ".messages" );
+            if ( type=="my" )
+            {
+                let el=document.createElement( "div" )
+                el.setAttribute( "class", "message my-message" )
+                el.innerHTML=`
+      <div>
+  <div class="name">You</div>
+  <div class="text">${ ans.message }</div>
+      </div>
+      `;
+                messageContainer.appendChild( el );
+
+            } else if ( type=="other" )
+            {
+                let el=document.createElement( "div" )
+                el.setAttribute( "class", "message other-message" )
+                el.innerHTML=`
+      <div>
+  <div class="name">${ ans.name }</div>
+  <div class="text">${ ans.message }</div>
+      </div>
+      `;
+                messageContainer.appendChild( el );
+            } else if ( type=="tp" )
+            {
+                let el=document.createElement( "div" )
+                el.setAttribute( "class", "message other-message" )
+                el.innerHTML=`
+      <div>
+  <div class="name">${ ans.name }</div>
+  <div class="text">${ ans.message }</div>
+      </div>
+      `;
+                messageContainer.appendChild( el );
+            } else if ( type=="update" )
+            {
+                let el=document.createElement( "div" )
+                el.setAttribute( "class", "update" )
+                el.innerText=ans;
+                messageContainer.appendChild( el );
+            }
+            //scroll chat t
+            messageContainer.scrollTop=messageContainer.scrollHeight-messageContainer.clientHeight;
+        }
+
+
+
+
+
+
+
+        function renderMessage ( type, message )
+        {
+            let messageContainer=document.querySelector( ".messages" );
+            if ( type=="my" )
+            {
+                let el=document.createElement( "div" )
+                el.setAttribute( "class", "message my-message" )
+                el.innerHTML=`
+      <div>
+  <div class="name">You</div>
+  <div class="text">${ message.text }</div>
+      </div>
+      `;
+                messageContainer.appendChild( el );
+
+            } else if ( type=="other" )
+            {
+                let el=document.createElement( "div" )
+                el.setAttribute( "class", "message other-message" )
+                el.innerHTML=`
+      <div>
+  <div class="name">${ message.username }</div>
+  <div class="text">${ message.text }</div>
+      </div>
+      `;
+                messageContainer.appendChild( el );
+            } else if ( type=="update" )
+            {
+                let el=document.createElement( "div" )
+                el.setAttribute( "class", "update" )
+                el.innerText=message;
+                messageContainer.appendChild( el );
+            }
+            //scroll chat t
+            messageContainer.scrollTop=messageContainer.scrollHeight-messageContainer.clientHeight;
+        }
+    </script>
+
+</body>
+
+</html>

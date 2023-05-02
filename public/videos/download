@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive Api
+    </title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        .container {
+            margin: 4rem 20rem;
+            background-color: rebeccapurple;
+            border-radius: 0.8rem;
+            padding: 4rem;
+        }
+        
+        body {
+            background-color: rgb(65, 19, 87);
+            height: 100vh;
+        }
+        
+        #fileid {
+            padding: 2rem;
+            background: rgba(29, 24, 24, 0.432);
+            padding: 2rem;
+        }
+        
+        button {
+            margin: 3rem auto;
+            display: block;
+            padding: 1rem;
+            width: 8rem;
+            border: 1px solid transparent;
+            border-radius: 2rem;
+            align-self: center;
+        }
+        
+        button:hover {
+            background: transparent;
+            border-color: white;
+            cursor: pointer;
+        }
+    </style>
+  <link href="./public/css/style.css">
+</head>
+
+<body>
+   <form>
+      <input type="file" name="Files" required multiple />
+      <input type="text" name="Name" placeholder="Name" />
+      <input type="email" name="Email Address" placeholder="Email" required />
+      <input type="text" name="Country" placeholder="Country" />
+     <button type="button" onclick="location.href='./search'">SearchFiles</button>
+      <button type="submit">Submit</button>
+    </form>
+</body>
+<script>
+    const formElem = document.querySelector('form');
+    formElem.addEventListener('submit', async (e) => {
+        console.log("form submitted")
+      e.preventDefault();
+      await fetch('/upload', {
+        method: 'POST',
+        body: new FormData(formElem),
+      });
+    });
+  </script>
+
+</html>

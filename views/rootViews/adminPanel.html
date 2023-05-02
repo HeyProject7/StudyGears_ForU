@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <!-- IconCout  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- G Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/admin.css">
+    <style>
+        body {
+            background-color: rgb(0 91 231);
+        }
+    </style>
+
+<body>
+    <!--  Header  -->
+    <session class="admin__auth">
+        <div class="login__left">
+        </div>
+        <div class="login__right">
+            <div class="auth__container">
+                <div class="logo__container">
+                    <!-- <img class="text-left full__parent" src="/images/logo2.png"> -->
+                </div>
+                <h1 class="text-left text-black">Welcome Back</h1>
+                <h4 class="text-left text-black ">Login To Continue</h4>
+                <form action="/accessToken" method="post" class="auth_form auth__form__color">
+                    <input type="hidden" name="roles" value="admin">
+                    <label for="name" class="admin__label">Enter Username</label>
+                    <div class="admin__email admin__field">
+                        <i class="uil uil-user-circle place-center"></i>
+                        <input type="text" class="admin__info" name="username" placeholder="admin@gmail.com" required>
+                    </div>
+                    <label for="name" class="admin__label">Enter Your Password</label>
+                    <div class="admin__pass admin__field">
+                        <i class="uil uil-key-skeleton place-center"></i>
+                        <input type="password" class="admin__info" name="password" placeholder="Enter Password"
+                            required>
+                    </div>
+                    <button type="submit" class="btn btn-danger  admin__btn">Login </button>
+                </form>
+            </div>
+        </div>
+    </session>
+    <script src="main.js"></script>
+</body>
+
+</html>

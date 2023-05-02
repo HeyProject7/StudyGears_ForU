@@ -1,0 +1,1007 @@
+
+20/01/2023	8bbd3073-ada7-488b-90a9-0b4414426aea 	 Error	Not Allowed  logged
+20/01/2023	67e4a91b-cbe1-4721-b9ce-054f61bfab6f 	 Error	Not Allowed  logged
+20/01/2023	f1b0e992-b22d-4ea7-8744-c311e8b911f0 	 Error	Not Allowed  logged
+20/01/2023	44d0c0b9-f7fd-4f8a-9241-3c5de6328f1f 	 TypeError	req.accept is not a function logged
+20/01/2023	7ff56943-0661-4967-aee7-f36237e429d2 	 Error	Not Allowed  logged
+20/01/2023	21f578b7-c73c-432d-a68e-ee2f6b4cf49c 	 TypeError	req.accept is not a function logged
+20/01/2023	44f210bd-3d0a-49ca-aa74-3c44d7e7f74b 	 ReferenceError	fire is not defined logged
+20/01/2023	0768795d-9ed5-472e-a8d9-e84851d34c23 	 TypeError	fire.emit is not a function logged
+20/01/2023	6b300a12-65b8-4deb-a904-ebbe321cd2a9 	 ReferenceError	path is not defined logged
+20/01/2023	6e7a4a30-8aec-48dc-b7c7-2aa7f5d10842 	 ReferenceError	fire is not defined logged
+20/01/2023	75f39c67-8338-41fa-a6d0-03b458126dd9 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+20/01/2023	584e7d75-eecf-49f5-b268-0b13b8324890 	 ReferenceError	fire is not defined logged
+20/01/2023	f9e513e5-b099-42c9-b9de-9e3529d9ba0b 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+20/01/2023	19fbbd84-04cd-4fdc-ad29-187aa7eb1f8a 	 TypeError	Cannot read properties of undefined (reading 'fname') logged
+20/01/2023	50ecb1b5-6a4c-424d-8708-a045d9c975d3 	 TypeError	Cannot read properties of undefined (reading 'fname') logged
+20/01/2023	16ae1fbe-1e09-478f-b9cb-82141ce671cc 	 TypeError	Cannot read properties of undefined (reading 'fname') logged
+20/01/2023	106cb58a-35c0-4e1e-9985-a5797c34caca 	 TypeError	Cannot read properties of undefined (reading 'firstname') logged
+20/01/2023	0af2d6b8-f44a-4443-9608-03415752c40c 	 TypeError	Cannot read properties of undefined (reading 'firstname') logged
+20/01/2023	e8905f19-b5a2-4728-9f43-1227e5baf20e 	 TypeError	Cannot read properties of undefined (reading 'firstname') logged
+20/01/2023	86b10f84-fb48-4644-a50b-0a017e1a7d48 	 TypeError	Cannot read properties of undefined (reading 'firstname') logged
+20/01/2023	f0b6e943-8878-49a3-b018-ff6a49acead3 	 ReferenceError	fire is not defined logged
+20/01/2023	6fbab850-bd9b-4418-85b9-eed4bc8b0f88 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+20/01/2023	af7b8c62-5cc1-4cf1-93cf-671d43ce1ea0 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+20/01/2023	424b2135-cf19-427e-8989-ddc6dac9eba1 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+20/01/2023	60d5825b-b1f5-4c01-ab8d-15f4bed4aca5 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+20/01/2023	b13dc477-3209-4103-b27b-3ec59d32956c 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+20/01/2023	32212502-d07f-4834-bc68-9b93c42a5544 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+20/01/2023	3bc2c067-d2c9-414a-97c4-b8be4aa85e93 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+20/01/2023	d87eceb1-d08d-4779-a6c5-824319a518a6 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+2/11/2023	fdf8be2e-be94-4b1d-9d88-e4590d39de45 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+2/11/2023	be331c2f-983e-43df-afb4-94bb4924e1ac 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+2/11/2023	6d1b566b-55da-4496-9680-056816798865 	 Error	Cannot set headers after they are sent to the client logged
+3/11/2023	78f7dbf9-89a8-4fae-a9c4-7784cd2a8c59 	 Error	Cannot set headers after they are sent to the client logged
+3/11/2023	479a06a2-33b6-41e7-bc22-5ae689fc1924 	 Error	Cannot set headers after they are sent to the client logged
+4/11/2023	2e27b509-bed7-4d63-a95d-051a58b76fc9 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	d6dff5f4-01fa-4854-ae6e-155846eaff37 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	cc621b92-63e9-42cf-9842-19265001330e 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	b9c13b39-4605-4584-a72b-e62cb52455d0 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	cb6623e1-59b6-4615-a18c-193341f7b8da 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	34e9c5a5-433c-457a-be04-851575ff268a 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	f93c755c-ec33-4a2f-94a7-4830ec5a02af 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	ce6ffd91-a31e-4985-ae5d-763a7d282684 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	b64cd6c9-b694-4e03-90ab-507753eb6a64 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	42189849-940f-4d69-9382-b7b336277fc2 	 TypeError	Cannot read properties of undefined (reading 'id') logged
+4/11/2023	650cb521-efe8-4e52-b5f6-f8106ab6744a 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+4/11/2023	02bb04f8-1226-4212-be2d-4d73504a5b45 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+4/11/2023	345094f1-e347-4287-a880-f95efc7c8bc8 	 TypeError	Cannot read properties of undefined (reading 'profession') logged
+4/11/2023	da2049db-ae16-47ac-a2e8-e5e742ba3db3 	 TypeError	Cannot read properties of undefined (reading 'profession') logged
+4/11/2023	861120a2-5314-4772-a467-be1d29580954 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+4/11/2023	6bdffc46-ed02-4c44-b447-11adc6c89f9c 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+4/11/2023	7f503b2d-ddef-4176-8b97-b6fbb460c4e3 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+4/11/2023	0abe940b-f2f3-4993-a7e4-793b0d8c40a1 	 TypeError	Cannot read properties of undefined (reading 'find') logged
+4/11/2023	eaadd9d1-1a26-4d64-90df-b7badff9b7cf 	 TypeError	Cannot read properties of undefined (reading 'find') logged
+4/11/2023	09ed85e0-f14b-400f-9790-312f4c5db584 	 TypeError	Cannot read properties of undefined (reading 'find') logged
+4/11/2023	14db99aa-3855-4d7f-92b1-3c3fdfaf996d 	 TypeError	Cannot read properties of undefined (reading 'name') logged
+4/11/2023	c6698f25-e4f2-4713-b08c-375de3d5ac13 	 Error	Cannot set headers after they are sent to the client logged
+5/11/2023	9b09ae03-1bf9-4c17-a7a4-721c234b65e7 	 Error	Cannot set headers after they are sent to the client logged
+5/11/2023	f8291ce3-dfb2-4931-84a5-cc071879bec7 	 Error	Cannot set headers after they are sent to the client logged
+5/11/2023	e52adbfd-68c5-4c6d-836e-11503dd3f2c7 	 Error	Cannot set headers after they are sent to the client logged
+21/11/2023	f22b436b-225d-449a-a33d-102c244201a7 	 Error	Cannot set headers after they are sent to the client logged
+4/21/2023	4332d33b-0538-4cf1-b40b-f9149430f915 	 Error	Cannot set headers after they are sent to the client logged
+4/21/2023	79f20291-ce86-4e1c-83e6-4b2a8f8d03b9 	 Error	Cannot set headers after they are sent to the client logged
+19/21/2023	5592613c-33e8-4ccf-9b9e-a664394a9a78 	 TypeError	Cannot read properties of undefined (reading 'format') logged
+19/21/2023	c071061d-0770-4fc7-8a41-305ef578decf 	 TypeError	Cannot read properties of undefined (reading 'format') logged
+19/21/2023	8f31a730-ce2b-4a35-b38f-d2aee919897e 	 TypeError	url.format is not a function logged
+19/21/2023	89db5cf1-69f4-45ca-819c-baf0b55c5c65 	 Error	Not Allowed  logged
+19/21/2023	e7936443-d32c-4990-8475-2b030ac35fc0 	 Error	Not Allowed  logged
+20/21/2023	67b72c5d-5493-4454-b08d-57a5f0fb5f7c 	 Error	Failed to lookup view "D:\MY USERS\Aditya\IF5I\Node JS All Folders\Dave_Grey_Code\12 MongoDb\routes\views\StudyGears_videoPlayer.pug" in views directory "D:\MY USERS\Aditya\IF5I\Node JS All Folders\Dave_Grey_Code\12 MongoDb\views" logged
+20/21/2023	8e79e1fa-3a9d-4060-9ef6-7a8be73969ca 	 Error	Failed to lookup view "D:\MY USERS\Aditya\IF5I\Node JS All Folders\Dave_Grey_Code\12 MongoDb\views\subView\StudyGears_videoPlayer.pug" in views directory "D:\MY USERS\Aditya\IF5I\Node JS All Folders\Dave_Grey_Code\12 MongoDb\views" logged
+20/21/2023	e6cbc259-31dd-4bde-bc83-8d75bdb7c8b8 	 Error	ENOENT: no such file or directory, open 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\Dave_Grey_Code\12 MongoDb\views\public\style.css'
+    at D:\MY USERS\Aditya\IF5I\Node JS All Folders\Dave_Grey_Code\12 MongoDb\views\subViews\StudyGears_videoPlayer.pug line 16 logged
+20/21/2023	5330e694-319a-4a84-aea7-4b730c847b2d 	 Error	Not Allowed  logged
+20/21/2023	ea058a04-afe2-4afc-ae3d-3eb0f022671c 	 Error	D:\MY USERS\Aditya\IF5I\Node JS All Folders\Dave_Grey_Code\12 MongoDb\views\subViews\search.pug:38:1
+    36|     .course__videos__container
+    37|         .container
+  > 38|       - for(let index in files)
+--------^
+    39|         - if(files[index].includes('.mp4'))
+    40|           article.video
+    41|             .video__banner
+
+Inconsistent indentation. Expecting either 4 or 8 spaces/tabs. logged
+23/21/2023	c69b672c-a056-49bb-9fe4-1c9a34242597 	 Error	Not Allowed  logged
+24/21/2023	fce4cf5b-7a8e-4bb9-9438-b046695e50b4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+24/21/2023	7c6b75a6-a3aa-4de3-82b4-5ef69b0f8440 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+24/21/2023	fa9b9c84-5ac7-4fbb-abfc-060c14136f7e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+5/31/2023	32f6581c-e696-428a-a00f-499702201397 	 Error	Cannot set headers after they are sent to the client logged
+5/31/2023	38b47486-ab31-4ebb-b26b-6fed7b295185 	 Error	Cannot set headers after they are sent to the client logged
+5/31/2023	55323f43-ed1f-4704-ac1d-d0bf184c105a 	 Error	Cannot set headers after they are sent to the client logged
+5/31/2023	30542064-bffb-469d-a0d2-4e0740ef3ef0 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\courses.pug:51
+    49|   h2  Free Courses
+    50|   .container.courses__container
+  > 51|     -for(cource of Courses){
+    52|       article.course
+    53|       .course__image
+    54|         img(src=course.course_banner, alt='Drive Image')
+
+Courses is not iterable logged
+5/31/2023	d1392a3d-8714-4efe-b27f-beaae48b19f6 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\courses.pug:54
+    52|       article.course
+    53|       .course__image
+  > 54|         img(src=course.course_banner, alt='Drive Image')
+    55|       .course__info
+    56|         h4=course.course_name
+    57|         p=course.course_description
+
+Cannot read properties of undefined (reading 'course_banner') logged
+5/31/2023	6d650d05-3a6b-4c52-b9d6-03662fb59648 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\courses.pug:54
+    52|       article.course
+    53|       .course__image
+  > 54|         img(src=course.course_banner, alt='Drive Image')
+    55|       .course__info
+    56|         h4=course.course_name
+    57|         p=course.course_description
+
+Cannot read properties of undefined (reading 'course_banner') logged
+5/31/2023	49cb1e9f-328c-4613-913b-0b44b7a9a4f6 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	03bd0cac-6919-4e0c-97ce-8a0422008cfb 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	6b3f612c-6628-4ecb-8e5f-049bcf726d49 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	099f3b30-37d0-46ed-ba67-e54d25e805df 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	6c5ed4d8-98af-4375-8cfb-3b232dd2f629 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	735d66f7-6ecf-4ab8-a26d-289dc55b04be 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	b4c342b7-7834-4ee2-a85c-399acb7f1c39 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	1274ec8a-2e36-41b7-af23-e526ef6ca941 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	1e2d82b8-1b5d-47ef-8f93-a45f673bac6c 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+5/31/2023	44899dff-1a7a-4d0d-ab2a-5b01fcf640ce 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	5bfe23af-8655-47b6-9549-1f7b5480b3ab 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootView\adminPanel.html' logged
+9/31/2023	d4a15fa6-cf17-4cf6-ab7b-3dae89cb3b64 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\routes..\views\rootViews\adminPanel.html' logged
+9/31/2023	3eb8fbd8-c5a5-4acb-bb04-6eb078309240 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	bb29dd44-0413-410b-9677-d13fc211fe5c 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	c9ee2204-b73e-4f6c-b268-5d25d4f93fea 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	52a7e6c8-090c-4124-aeee-d726542d9353 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	eccb9610-ece8-4604-a70a-8406e427af76 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	f37d24e0-776f-4f0d-9b41-3c73188e95de 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	cc4083a6-d884-460d-b730-eb58ba76eea1 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	8d23e5e5-84e1-44af-aff3-92e16da91b9c 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	f8cb323a-c152-40e3-9881-b80675b431d4 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	808b43eb-c003-4521-bebd-2c2803bcdb8d 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	b9caadd4-c090-4747-be6f-3a7331de46ff 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	909bc954-5415-4042-9b0b-033455f6be7a 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	bec01d02-8e07-4c6f-835d-87f360a87de1 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	cc799199-419b-4873-9641-9bbfdacb2263 	 TypeError	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\search.pug:35
+    33| section.courses
+    34|   .container
+  > 35|     h2=course.course_name
+    36|     .course__videos__container.container
+    37|       - for(let index in files)
+    38|         - if(files[index].includes('.mp4'))
+
+Cannot read properties of undefined (reading 'course_name') logged
+9/31/2023	88f3c12f-7634-4137-b0a0-ff0861b5af6f 	 Error	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\courses.pug:143:41
+    141| script(type='text/javascript')
+    142|   // Change Color On Scroll Window
+  > 143|   window.addEventListener('scroll', () => {
+-------------------------------------------------^
+    144|   document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+    145|   });
+    146|   // Show DropDownNavBar
+
+Syntax Error: Unexpected token logged
+9/31/2023	170dc475-0cfc-4b48-96d6-8930c77fe7ba 	 Error	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\courses.pug:143:41
+    141| script(type='text/javascript')
+    142|   // Change Color On Scroll Window
+  > 143|   window.addEventListener('scroll', () => {
+-------------------------------------------------^
+    144|   document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+    145|   });
+    146|   // Show DropDownNavBar
+
+Syntax Error: Unexpected token logged
+10/31/2023	27a23da6-81b6-416e-a59e-7ae877eb70f1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	d3a48d52-4990-4a00-bc62-f8162516219a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	0a2dc72a-a9d5-4efd-9f4a-051d25b35b81 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	9a6d05b2-7046-466d-978e-912411c1c959 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	6e18327a-cd49-4c71-9fe2-7fa27b04cd28 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	aafb8e42-8ad6-4b04-bec2-74b83ea1fb95 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	d5a1818a-e3b0-4346-a0c3-66eaa24091cc 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	0639ccb2-08a6-4e43-80e5-1e533aaad49b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	22790ee7-6a1b-4073-b887-43ae03dd99ad 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	19811cbc-937f-4494-b2a8-2dc2c2a1b80d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	55ef5c44-96f2-4eed-b894-6785867b2a9a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	a85718d4-0140-4da8-8074-27c35476d75f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	61fb89a4-81eb-4113-8de3-ed07c8b786ec 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	d0ab5e38-6e60-4c4d-9f25-80711b22f0a5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	845a46cb-dd47-49fd-bc40-00584010e7ac 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	6a15900a-e464-4137-ace1-ff9175f92c2c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	69d4d36d-1eb2-454a-8e01-5ad5396fcff7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	dd4ab75f-219f-42ee-b3d2-e464325450d6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	697ecc55-3bc0-48c8-9304-6e51db887b96 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	2c9585bf-7137-4218-8b5c-d24da26c64ad 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	17c789f6-d005-4e4b-9b86-90043444d23b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	c2585bd4-0c4c-4862-bc4b-5a6d2d693afc 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	c444f39a-af4d-4c44-8d68-cf0b6353e4ac 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	716729cc-7b79-4c7a-a5b1-d9a02cccd241 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	9316f53f-02cc-43b3-b331-4448231a7623 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+10/31/2023	28711f5f-f4c9-4dd8-862a-d67d0866f19f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	f2539ab5-2ba9-4006-a333-d5b0d486c360 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	872569e1-081f-41ac-9e01-4e482f120d34 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	2690b00e-1081-4830-8274-e7965edf8c4b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	30bc7fcd-8d52-4e2f-9345-1c140da42abb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	83e89bf8-0e2e-4a5e-bc2d-366a6288d06c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	240f41b6-abea-452e-a116-1da4fd9afa60 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	29caba5f-1519-408b-a58c-9a7752254b75 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	9e1d8b2e-d587-415f-b917-2b027d59c6cd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	9c7f03c9-83e1-4735-bbab-805e0f042094 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	7bad37ed-674d-44a7-932e-bdc75f4b3336 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	a66ba823-3a7f-4459-b0dc-764c81c38043 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	a6d45809-caa4-45b2-9ae7-a28fb29ba605 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	91148fc4-7bd2-4cb6-b95d-5d0965197bd7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	3c7a4256-15e5-4091-8101-62c6f6e3540a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	e45e7a76-ef3e-41e5-ad47-0d58f5d4a27e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	af4eca06-964d-490e-83cb-79205226bd09 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	ff9bc034-6487-46c7-ae91-6de015711b6b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	2f6dee28-1df9-4f5d-b416-3efcce2fa94d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	b129d43a-7272-43f2-a2ef-9cb0dbc6dfd2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	3a74076a-232f-421e-9210-b050f5593f8b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	9ad938e0-508b-4f02-a4c2-b6887e989bcd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	cc63557d-52d6-457e-80f8-f1b6797162b6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	e90ecb2b-4a73-41d9-b28d-0d5601e5a472 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	3be7e906-6efa-4fa4-8733-dda66c7795a1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	37e448a2-7aba-4249-9504-8b23fc06bd1e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	a684e9eb-be15-455a-a8ee-a77a9702c862 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	d92f63c9-7b90-451d-9269-6199125d3863 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	6eee5ecc-635c-4d4e-9bbe-8af93bdf939c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	cd8a2260-8d36-4b0f-b1ea-ffeb20af9fcc 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	f2be35e0-e39b-49d1-9970-87c60cfe0780 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	26e100b2-4e65-4471-8f8b-9a9262208f6e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	7bacec9f-27dd-4b7c-9723-3c5b9fa3f628 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	5701aa08-1df5-4f6c-a1a2-650983b50c7c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	97ee3536-cfd4-4830-80fb-d6459009c523 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	11ee3d35-b623-4f82-8f83-be9805cd6acd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	5f771c88-4a56-4aca-b969-6fd025063dcd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	ec024d59-acba-4d97-836b-8d7c3acaa7f2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	ad2fe2b4-46fe-47ec-b74c-49814ec61455 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	fe5265ee-7d82-4486-8acd-c7dec5e28698 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	494a68d2-9bf7-40df-870a-ba9ad584d39a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	38f8581f-aaeb-4b85-9547-d16a749f6186 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	c08baed5-c220-4707-9ba1-10a29dfc7e5b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	2aeec4fe-1e35-4dc9-a635-67413d580418 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	ce335dd1-2da0-4e95-8f3a-ef537ae80e83 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	054e9637-adad-48ec-b16a-5b3c27d611ec 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	1e70058b-0273-4d99-9388-6a0ecf27d086 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	4b214c42-8f08-46e0-a1ee-956b5a60fa6d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	c28e547e-4c5a-499f-9eaf-b36abec56c62 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	087007a5-5071-4799-a4b9-6e47d9153094 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	5b54d12e-50a3-4d4e-bcd4-5b8b081f5580 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	bd243b60-7fbf-440a-94f3-fd564a7a0d99 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	661f6034-79c4-4fa5-92f9-18566d805cd4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	bd417cb4-8b0e-4859-9484-8e737abbe6af 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	60af3d3c-f7de-4065-a5d1-c04e412cd096 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	c60796b6-fc1e-4ce9-a416-ec1e1880734d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	934ac286-ea49-42c8-ace1-1edd5b54c86d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	8016b08c-ce56-48c5-80bc-f4d52fec97cf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	7cd3e1ee-4b8b-4cb9-a161-00418bba30ee 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	80309557-ca7f-4230-bf86-db6f975cb037 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	d77dad59-4190-47e8-ac54-e563113e2d9d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	9785c22f-7b39-4473-9099-8d0e2e49f2a8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	b48fefc9-c767-4093-94f8-e04c7181ad6f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	9d77e77f-9044-4513-82db-119560f803a3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	ecf456be-2998-4d9b-98d1-9cbe1cd124e6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	8c977af7-f4b2-4f5e-b9f6-3b391a04aca6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	9a7da222-d105-4f4d-aa30-74251f27e1b5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	d7fb3ab7-ee11-4ad3-966f-0d826eb1c0b8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	b1b8105d-7bc0-4b4c-bbc5-b5edc39c62ef 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	d3b54ebf-50b5-4c33-b1be-ca1f9b47a438 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	9ad8573b-618f-441f-bf21-6b4a43f8d49e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	f84fad14-3ea9-4744-9576-ee536c85f449 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	9271765d-acf4-49fa-a82b-e3c437605e72 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	a4cf61d5-c327-4bc4-94ed-eba91c122651 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	abf2878a-0c12-4edf-8104-9da99af76252 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	2343c33d-dc22-4dd5-8923-5b60d8f3a673 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+11/31/2023	1d2a0a12-ebd7-43df-88e0-9695a581290f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ba71b977-f026-4d7c-9c50-d177ab840ed6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2cad3b9a-c449-4a36-a563-cf2156e3818a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	401df1c7-a2c2-4962-9ffb-9de86a14cb51 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4351444f-0fcb-4623-b364-21cb1748fef1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ec2d1f7e-2d03-433b-ba45-7ac335d86f36 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	536c03aa-ac84-4fa7-9927-09a3b0fa1235 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	aa1fe556-51a8-4015-ac6e-ecb308e2b0fc 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d15a5c13-e56c-4c7c-8b3e-104b5367fb76 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5de66cc8-434b-4ac9-a702-9740d55f47ac 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3112d5a6-b7ee-469c-8d86-f92e7c2cb970 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8c4e8ffb-b403-40fd-b870-1eb95b2cbc85 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ceec7468-3f5e-4f34-98ad-5ec6bdf8c252 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	56ec1136-cb94-4082-98af-c6218f52734c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	935e883b-6a78-49ce-969a-7a5a1db82ca5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b9e8f0b3-62f9-492d-94dc-f76604a68726 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	35b5f16e-af65-460a-952e-5a02497630a3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	08a24dde-4e1e-4e74-8f84-a2b40816dd3a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3acea87a-05cb-465e-bf0e-225f08359411 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fb4ee694-b0be-4ab1-85b9-7d4472089636 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5c7a5ae6-6c0f-48db-a0c4-5165f19c95d4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f4b4b518-7d55-41df-b528-c41ca26b81b3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	29251797-903f-41ea-8237-4ff217830ed6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	44025199-5407-47e8-b96f-a437f9dad953 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3d95cfe5-c033-4ce5-ba7f-f8911d603e33 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	08c41827-8277-4f1e-b505-ede3b8179f99 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5eb997bc-1595-4c8f-a249-314655de0c1e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b2e5da58-edff-44f6-a6b1-d65818b35212 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ca3263ab-7c78-45de-aaad-78d8164e2b05 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8231aa33-74e3-490f-9250-38359a024b69 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f0091970-52fa-407e-96cc-80cb9ace376a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	422d1f61-ed4c-4388-af37-ad65e39ea0ed 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	363f38c5-ebe6-481e-865e-d4a2aae519d9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	25f2d334-3c47-4478-a3e0-af9146a70d39 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	acdbd7f8-8889-4b68-ae02-229b97fa0c46 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ff614017-5010-40df-ab4b-db3af7c91fcb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	6389b97e-32b6-4140-bb8c-507795c3e205 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a0f2b500-1e9e-4095-a4b6-c5f3f7ff482d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0b7b3eea-b366-431e-a694-5c042a45c4d9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dae7ef41-8418-4415-8be8-087250f184a1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2ab141e8-2d56-4809-9855-f965df5149f0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c4521b2e-7aaa-4623-8d76-5285db25dd34 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	091653f1-b6be-4d03-a8d6-b1b02ffda529 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e3b6214c-70a6-4a4b-ad05-765708c703f3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e4ab039f-08e9-4253-bf42-343f1cf7e438 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bcada577-0c3b-4c33-a3a3-541f9440e495 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fc6f5109-bba4-49b7-812f-e28fcef9d5d3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8e4b5a79-4663-462e-9767-0fea9fde819c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	06a90d42-cc8b-403e-953f-4e19eff1d3de 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	040342d1-f0c6-4638-92db-0f1cfe69d1c4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	25ec7f1c-b00c-4d42-9c93-65189477e4fe 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a0edce08-8439-4ff2-90c8-5b67a5b5ca8d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b91112d0-f08a-49bc-83a3-56491855046d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	07cc2ee8-646f-48ea-8b27-d20ce27e9fcd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0fa91cec-5fc7-41ab-85e1-67527f8a376d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c6a9b2b2-3e31-4e60-8925-9f35d62c568c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2aba8d65-0c8e-4d11-b40b-e2a11e911d0a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4a8102da-7a99-442d-b3be-24e63124b810 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	32c9172c-4842-4141-9b9e-7948ca922ff1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9265875b-a37d-4881-aed9-c69b48143e20 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	88d13376-b125-42a5-aea2-394e39c380e9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	21e55782-d657-4093-8984-412322391a1b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5a1d100f-e7bc-434b-8a5e-1a8ed898a119 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9b086623-5a32-42ab-b798-d8c9e23e4589 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4b8d5315-5387-4ddf-a23f-e2bd66f2babb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	323b4cc8-8687-4952-a4cb-7332df7ea73a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1fa79dc1-a4f0-4b5d-8bd4-f69453098e63 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	08eb410f-777b-4a30-b3c7-60f7990140ba 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3f53a870-1abd-446b-9495-d6fc26310ef9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3a22b97c-00e7-43ba-8977-12fe8d6dffc9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	af4c3530-9468-41c3-8d10-14391f9d2370 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f31fe2a5-226f-4281-9e2d-e836f4e684d3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d6b28f11-62c7-493f-ae3f-ebe0e1229605 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	baa235e1-2cdb-41c1-a3f5-05475859b529 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	92ce7ade-f2d2-4732-a2f0-45e03276bed4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e1ecf8c6-e866-4746-a6ae-612df9c286d1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	7ddd58e7-0240-46af-898a-dcb412d5818c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	392919bc-6e64-4920-b253-d621c70ad2aa 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	30a52bc0-cf05-4a9f-b6f8-69a8c878c39d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	acc079aa-ef22-464b-90e3-2469d7d0c727 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5fdee9f6-f58e-47e7-9625-3953711cb29e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dd661209-7c0b-4c1f-b813-0a918e5e5e81 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d7b62042-a805-45c1-ac5a-2c3462df6f58 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3f90f15f-b3e1-47c8-aa25-019f29c5ddd0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	128a3036-784a-4aff-aa75-6443baee3fbf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e5c62db7-ae71-49b7-8031-230491a49b19 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ae1a8834-6053-4bca-a8c8-90ba288a7c4c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f82a528a-26d5-4adf-8d8d-8d7b7bcc1c27 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4810c998-8c57-40c5-bcd6-8f94ecff662d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	240864be-d93f-4bca-a9c3-87d73a2dbcde 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	02fd6c33-8f33-4593-b2d9-dd452349bad5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e576255a-7262-4ed9-92b9-5c1f7fc9e5d7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0ebe1f05-3158-4726-bac1-cf42ff7ebd12 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	36680cd4-83d3-4f1b-b9e7-e33cb2b6b8c4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bd656b65-a7b7-4ac7-8681-2b282cafaf91 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	764dbbc1-56cb-4587-9cd4-41c58789fa60 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	05274beb-20b6-4596-87cc-4a37abc97d20 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f8c03125-c6b0-498b-8c0c-6713765e2885 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e6bc2a29-808b-4b4f-8737-69aa7a8486f1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2a218848-3575-454c-8805-a3bb124dc17f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a7104a84-7207-43d7-b98e-466963f8ca81 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	46c7686f-0c34-4acc-9c51-31369db69bc5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	42bfd203-9b75-4255-82fe-e588fa06d357 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c6bafc49-527e-4eae-8014-b624ee756109 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ff873396-686a-4622-8f26-b1194b166df6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f13ed637-b2f7-42dd-bd5b-a67845685f99 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bcc80d35-1064-48ee-b323-9f825be4e017 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e3c6f1ef-6a8b-4469-a2b7-5de13e6a7caa 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c5ac6a43-81d0-47a9-8d24-b930a8bc3ca8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9db90e62-e4c8-475c-a8b8-bf7d7812b792 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	05de50e3-33e0-4ee9-b95f-5d95ce799569 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	07a893f3-f2fa-4f55-bdd2-1723311f28f2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	80fbdcd4-eea6-4791-a875-8656c1cc0c52 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	cdcd4a16-cb8c-43a4-bf21-938ae09f2d5b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	25b09973-a62d-42d6-b3de-880b4f2c3028 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dc66ea22-32d8-49fa-afc8-6fc019e38a53 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	28d4ee3c-98ac-49f7-96d9-33526509da08 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	42d04430-9b1f-4407-a80e-e8457e71738f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d207fa48-e537-48c5-940b-62503c03c15d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	18303ab8-ab41-48a8-9bf6-80ea36d28a3e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4e2fe0e4-0d5b-4b1e-b2a5-7e701b480a78 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	77419d31-acef-42bd-aedb-051cae2ecfb4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	504b95e4-f0f5-4ac2-8498-2759da87fff3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	db2e80c7-b175-4194-b2e6-67891e710ad0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5801b361-d440-4839-abb5-f767dbf2428a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	162a11f1-ebcd-4a85-92e4-60f90e5f4c6c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	147557bf-60f7-4df8-95da-bfbff5fc2c11 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e0ee621e-ee93-44bf-bf81-8771263b7bc9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5049f6f6-1662-4b72-b5e2-2e0d0285ac71 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c3085973-1bb9-4c92-85ac-07ad012233c0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a84bf7a5-1a40-4513-9aa4-c9e7b01f6214 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bbbe99ac-072a-4c62-a43f-9d71a405eda3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d1d00760-0b53-470b-af6b-fba803e746fc 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	084ea9c5-83c9-4c7a-ab27-a96675c5bc38 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4b488993-bef9-4d32-9962-bea3a2c3624e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	189885a0-e184-4c18-bb97-ffff25041d5b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	61ea8aae-f331-4e60-a312-3ac962166026 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b752d90e-52a0-4146-9ce7-d7a04e96f910 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	784c4cfc-346c-46e6-8a81-166b9730fb0c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1124fad5-84e9-4ddf-b855-6aff6e274ddf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0579db2f-2c92-4321-bf81-aeeb17ff9569 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9a8c1647-f32f-4846-9406-5124d21d4e6b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fbc462d8-72d3-48dd-bffd-67f17791e1ea 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	037395e7-87a8-4e53-b59d-8007436175eb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fc508742-577d-4e8e-9455-266bd1038e9c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d06efb55-142c-4972-853a-b9c2224a5773 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	901a1652-ef21-4b49-b8dc-14bdc5ec201c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ad4de427-af8b-41fd-8506-446177036f54 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3b1c7519-02fc-4e8c-9cf2-651b84465240 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1b2dea99-bfdc-4b60-a677-7b6f24a72b1b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	162fec3d-9b7d-4623-8003-c46466e34cbd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1aa74b63-d3b5-4198-b35d-3b1296270a2c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4dc6f857-3f30-4f6b-b292-bd702e80b483 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1eb4f606-d240-4bb7-ae16-99ad3100c449 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ec8b9bae-f68d-4a08-b929-ee3503e829b5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	18fdfebe-bc2d-4c34-8875-048a3ac4af61 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9cfd80de-faf6-48ae-b9cc-2df4b724637c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d18b295b-6d01-40fb-b0bf-08826e84e74f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f70a28de-eded-4321-9d12-a9d5a70d0ca9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b9927892-8612-4f2b-a8f8-deac99f890dc 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	47582a0f-719a-43e3-8e46-11501d57984c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1092437d-0be6-4f44-8ae1-383d6cfb7b88 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	09cec9cc-4993-43b2-bb95-ad0f0ccbc2c2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b12fdc38-3072-4922-9161-5f7a14734072 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	061baaef-f26c-4673-8716-b88ec169b793 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	95d16538-6381-4d0f-aa50-4f5abf6f9d6c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c3bf3df4-a107-481c-9ca3-7b652e819423 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	606404f7-376a-4284-ad2d-960503f7c03a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d33f95c3-e039-4575-95ec-3371f28a3cc8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	04b03ba7-e8d1-405e-b916-e45d2077514f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	34e25dd2-87a9-4e68-8f87-c56aa103127a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	eb97738b-44f9-421c-8492-574821eb7adb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0a887276-5ef6-441a-8250-f7e0e70a59d9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d6ac52bc-6117-4a82-b3e2-ecc293b0e593 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	53ae86a8-eff0-4ea9-940f-c66bf5dd2b16 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b4ce9756-ea82-498f-ba80-d42407cbfd8b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	7fe991bf-4220-480e-8d84-141fd7414cbb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c8b2dfc6-bda1-4bd6-99a9-dcbc34bd70e8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ff57f185-3b95-40ff-9703-de7160d76327 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8011f03c-4110-4996-b398-88ea8f303bdf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0cf80043-90b5-43e9-a3c2-564eff3a175b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ba032b67-9ad1-4558-8a42-900136400105 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ab1aece5-1d57-426c-919f-4e88df5fff6f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	836df514-4a8f-456b-8db1-90911d0d4757 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f8ffde4d-6776-4f2c-99c9-7108e3f63ba8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	66091b56-389f-450e-a76b-b26be4ad035e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d9ced56b-884e-4aa1-819b-6f4f3002e138 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	962e9492-f61c-4f00-8671-d48bd9dfd9e8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a7ea2c61-ecfa-4104-b704-128ba973c581 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b6865b07-bce3-4a6e-9607-2fed3f239b74 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2af06902-a1a0-461d-896c-f5afbd633cd5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	95cfbe84-6dd0-4c78-81bc-f97905e22b35 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2348b888-8eda-4ce8-a69a-04012ffaded8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	512233ab-7717-44c0-a166-9400bf5f2ee7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	efa08194-5325-4935-8bb8-7a6c4b82e3d0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	42a52d2a-048e-4b58-8853-f028a014eaef 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ffbc5f3b-4c05-4b2a-a1f1-6ae3ccd9fa01 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f0a3bf0a-94ec-48a9-9b2e-971d3b01fb02 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2f5e24db-9fd5-4459-b7a6-06ada9512793 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	06513895-0862-4013-9340-c9b915fadadd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1158f7b1-604e-4d41-872e-a50ffc07fe4e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1e5131f0-9eb8-46c4-bc9c-5578047565d4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bde23044-8f5b-4b64-8157-a47549ac6c75 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	429ea368-2e22-479c-8cf2-06458b8e28b1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	383b8025-8b56-475a-bfba-9a8263cc3683 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ae62af86-62fa-42a3-96a4-d22185d30cf6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9b9bafef-843c-4d55-bcc1-cecb2acfd4e0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c419efe7-467b-4aa3-96bf-b3776a0f770b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	6432dbad-83d4-4fef-801d-bfda12baf48b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	833e59c5-84bb-4af2-9177-5bb8ee8c2bf2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	53982d7c-835a-4f98-abc8-59572768b931 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1b4c68ba-a359-469b-8e2e-bba10431509c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c32ae2d2-79f9-4dae-b3a6-4e05a4302fbf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1207cb3c-21fa-440c-bee5-aba1346ad936 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	23a82418-0f8f-47d2-a39c-9ff7c4e652e6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c4fe8f0f-0fba-4dd4-8145-3f23fce967ce 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d65aee39-b4ef-4897-b132-912f11354faf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c9de6810-ae73-4022-8e28-5059a3e6b85d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	732e1e08-94df-4841-913d-6a9dde81b758 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b2afe0ce-d2bf-45bd-917d-6880cfdb5522 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ecb6c698-5410-4a55-afe5-3c107f3d0020 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8acfd3a4-c756-4217-8d06-1bbba2b0c79b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3143be4c-9715-452b-ada8-3e8de042c1fb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0d67b683-675e-4f41-8036-ab5f012e3b81 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b6203cb8-454f-489e-8d19-8d084f0eb8b5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	58cb5bb4-90ab-44f0-afaf-9e0d3fb2eb49 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ff792877-54d3-4370-9147-14acb35630db 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fd4d0048-7b52-4350-bd33-ac362369cbd4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	98eca333-24a5-43be-85c4-f529dcb82513 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	993a3ba8-196e-400a-b8f1-21eb6814cf56 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f0f48e19-ec74-4b37-b3a9-b923518b0e01 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	19f6e91e-e258-46eb-8e41-63ccdf66afe1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ddd5476d-a0b6-4b5c-8881-5f064dbdcc7d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9b4dd021-a566-46e2-8349-8b9c5d802e23 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	653296ae-440b-4ab8-890f-bdec8b045b7e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d2771d5e-8bc5-4170-8170-e81b6d163b21 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	542bd6d5-43ad-4442-ab83-e1004acd1fa2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9b3992fc-3876-4756-9405-99f7c769c9f4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	61c27f5a-9345-4b25-b117-af35458698b4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3c68a9d5-195e-454b-8c81-5ce9eb13adb5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	396220c9-dec0-4892-aa59-dc91c9015d3e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ec066a2a-c0d7-46c3-b3dc-742a9d3c744d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5ec9ddec-09f6-4eea-a614-775adf63d3b6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8a5f55a1-5e3c-4228-8462-29374628eb6d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e7b46684-14ef-4b1b-81ec-97b274aa1993 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f000683a-cac6-406d-b477-58c9e283c7d9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c4cfbbb0-1d94-4f6a-9a30-cd0dea62cab9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	6c219f7a-6b62-4d5c-9ab9-fa1c1667b88c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9ea62e74-cf79-4b0d-8e6d-d53967f7d73e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	51c563fc-cfe6-46eb-aac5-2cd8175d3a29 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	60e63604-b4c9-4b34-8297-45718c63d27f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e8781a92-bc2b-4e89-b924-ade3361d170b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8efd2b54-4653-4d21-83f4-07703b922cf0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	94f8d341-b389-4cc8-afb8-f6f56f955788 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fdc9e15c-f3be-4a10-84bf-f23a7537c1c8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1f5fe535-e642-46df-96bf-7daed6792c47 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	6a8d3da3-ea6d-4eb7-be70-7a26897b14b6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3cc540b9-2d80-464e-a9d2-5ac5c344fccf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2a0c3aa8-13b0-4036-9fd7-eeeabd71a6bf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e6bc8336-9e4d-42c2-8646-9795c771aef2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	7cefd8c9-0443-4fbf-98a4-e064fbe47483 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8acee7d9-df95-4b5b-95e5-dfe0884c6812 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	904728fd-4f2b-44c5-b431-1d8d6f6826ae 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	02334117-72ab-40e9-b2d1-dda34eb85682 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	be50a5cd-08b3-4d2e-ab0b-a9f81e0c4321 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b9e7c518-c9af-48c7-9e32-1ba831633404 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	26bdeb86-5dcd-4f44-845b-41add216c404 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	42e33f70-167e-42ec-b232-55fa39850389 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a0853c73-70f2-4eb3-877f-1252932cf28b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c9b07a07-e226-4df3-bfc1-ab57f1d0b59e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a097267b-9df8-4663-95f0-f3ccf5b774a2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d5195d30-1049-44c0-8b91-544350781648 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f2853022-7505-438e-a573-7862987b1f17 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a87f85b9-21c1-4676-84b7-9fe8282b0b4d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f75b4aff-1ff3-4076-8f35-5a8fbbeee885 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f39e8391-31d2-4858-85ff-ffdb891d479c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bed46051-81fa-4a49-808d-3ef070a0017d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d5ef780c-d4a6-4964-bc56-1e0279efaba1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4e3d2234-d2a7-49ae-84f2-a8e3ca34a21a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a94c6967-860c-4bf0-a5b3-cfffa7d1217d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3142565e-b557-41c6-ae23-7a5055f6a51f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d8b9f1d2-46ef-43cc-acfd-0b7e1a74a1a5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b32d666d-917c-478b-91c7-bbfa9b6cfc3f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	207c8cb5-63e8-4f08-9444-9ba2eb024121 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0cae7359-356f-49fd-963e-1191194c40dd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4392ea2c-d834-4501-940a-648755217d27 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bdefe8ee-6242-48c5-9c97-008ded04c58a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9cc67a10-b877-4d1d-bbd7-2a6979389218 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	77896ccd-7ef2-4da7-980f-8ba99e979735 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	be9e5469-edfe-498b-bfca-fb7c06f07944 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	81149f7c-97f1-4a03-8224-069a1cff7d3e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	519dca54-8183-440c-88e3-4e880e9dd024 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	999b0867-1882-45f1-9e2a-dc799c86a51e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	03d95349-706d-4451-a9d7-f3c8f41bc4e0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	210e3025-1b1f-426f-b38a-6ba0ce97f07e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f011f3c0-4841-4141-b011-cb1dfb989fdb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3d3cfbc0-2e1f-4003-983e-b8e4aa63b9f5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ebbbfe19-235d-4112-9a0a-000d0560eb51 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	6f1da812-b4ec-4aab-972c-5087eec443d5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a5602145-00c4-4aaf-a1c0-6d88fb7b05f7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	af2c4556-089a-4831-a19a-dd15b7a0abaf 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1783a582-35d5-4df8-bfbb-0acbea164198 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	deb23582-ab93-4e26-ad4f-c1e480483965 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	52f19dfe-8e46-408d-868f-716c290cbd9b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	72f24465-83ea-4e2c-958b-1e08ee3e5db0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bba1c0da-cc43-4e73-911e-78d7d336a398 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d935e660-3d40-4e04-8b83-97a62c2594c1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0427e6eb-1fdb-4da9-aabd-8e89e36aad64 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	78880df4-0d6d-4b53-8223-ee15a1b2b9b5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	21a799c3-d651-4b51-ab4e-614bf6d88525 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fe74af21-f14b-4f0b-821c-b1d6c00b6a34 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	72bc3c0d-757a-4139-b469-b94fff5c979d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	57bb8432-3c16-4ea3-8682-fc2e9f06c598 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ba99f90f-f560-4655-b37d-9521d6100805 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	6ee0c708-ad14-4a9d-a830-98679187c665 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dbff5b8d-125e-4cc2-b935-b40a977b5b20 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8beea291-57ec-4b05-99d8-33787a0a0e10 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e8ebfb1b-9538-4346-ac81-cac9bda9c9d9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	08d70c16-a9e5-4b13-bdd5-7e35d67e018b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	45b1c96f-67db-421f-8bbd-cb0ebfe5d84c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	bada79fa-167e-489f-935b-8cf4b337d127 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dd806c41-3051-4dec-81e1-a53f168e96d1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4403d778-5dbb-4b6d-95cd-1dbf424215b8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c40792aa-6ca0-4b1d-a247-c81a74f1a404 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	3b113b93-e364-46c7-a5b6-6589bc597439 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dbad16ec-6727-4df2-a21b-7200ffb36bd7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	84b6353f-5daf-48b9-a531-8ca2419f35ae 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	65f90e6c-89bc-484c-8164-5f79717922f0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fc5d7baa-e98b-4fa1-846c-2ce4b976342f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b93f56c9-85cc-4171-bea8-bda72038ba14 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	32a7f3e5-3b83-4604-b160-861a1f7cb957 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8a54a39e-a94f-48e5-8146-bd4e3be38282 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f4cbe59b-8e63-41c4-818b-192956e81ce5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a3f7c1e7-ff90-4ca0-b5d9-3167b9f7cdf0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f04c0e08-2e45-4eb3-adf3-979e6b9e613c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	628469d3-bfc8-4006-adf3-66cb53a12ae1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d8dee772-9577-4b0d-bf9a-109fb23f3b3b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	56312909-22ad-4c2f-9b93-822f37ef1fb7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ef9b363a-db22-4db6-947e-5b7407a6967f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c0f3323b-adac-4e9e-8d78-95246384f5c7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1051b05f-b249-4bcd-9f79-0b863a83389a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2c4587fa-afc1-4445-aef3-8b2b315e9ce8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2b413fa4-143d-464f-9814-99988e9b911c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	45f59001-044c-41ea-be35-967a2823915a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	872aec32-616c-4671-b2f9-d43bcd63917d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a37264fa-2a90-4c32-8b15-1e51498ba0e5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e8ef2798-a025-4d77-b134-c331b5044e47 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	433f91b6-7668-465c-ba20-b6d2567d89a8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dd4c43be-8456-4108-8184-c43c6399a782 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	27bd2f7f-0f42-4a27-8d64-97360f1eb963 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	7a8fe0a2-7f9c-405b-b668-97dfdeffe415 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	52835f9f-da25-498e-b66d-c6a84cca6433 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	51ee52ee-6627-4a24-9c0d-cfbc0a7f82e2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c6f7f093-4820-4b2c-83e9-a84129ccce13 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	9fd30a33-09bf-45c6-8395-d79f61d2769f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	5c3d364c-385f-41dd-b0f1-3431451fe45b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	7a57a4ea-9d8d-4f7f-93b0-0f07db87495f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2879fc3b-e3eb-45b1-89a3-e0f477929fd2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a3880d64-c409-4dac-8072-615814ae1d77 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	05445ccc-6321-4c75-9308-af5d84ea787b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4363fc07-f32b-451c-8122-f86b06f78cad 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d61cbaf9-0723-49f1-b6d7-cb02c1577998 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d36bd28e-f8fd-4cb7-bc50-f360dc381b98 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4e05d965-c641-4451-9d4e-e7d06f4c0ea9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c304fd8f-3202-464d-ad91-6d5cb4947da7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	1d3874de-2ae2-44aa-a0f1-8664c4b8d0d1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	33dded6a-2e52-40e6-b2be-9f22994a9488 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a3637c53-557c-421b-b147-5fe6deb8f437 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a356c7bf-4366-4aa0-bbb0-983005ac0aad 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	545a55d3-d70b-426d-8e03-e9138e48e16e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	01fd0f62-5d36-46a1-903f-9aff6bedd54a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0e7d2c2c-2647-49cc-be75-a11a207d5930 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4bc72091-f916-4f4f-97a5-c3766b05bacd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fa74e237-9599-4c88-bb0d-821f4d9662ec 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c6fc68a7-4172-437a-9cef-7976ec651b8f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c47907ae-0c2f-4904-bb97-8f6f09e94f5d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dc1c598a-87c2-4f40-8b3c-99fc84347694 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	83dead15-7369-4408-99d5-65213fa1beab 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b6958301-3fc6-4596-8e78-2fb6732efb70 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	254c1859-d335-4806-8b1c-6440d01e99a1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	883234be-30f9-4e58-8ea4-64b1451a6c34 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b5d959fc-ecce-4944-aa2b-c9a8c98a5e6f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dbaee84a-318e-48d0-8f65-629392aed695 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c7cf46f7-ed14-473c-9f8b-3c92e36d8e7b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b0e85764-1376-4280-be3d-853032fa6048 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	63b1ebc4-8198-4bc3-a94e-e3a056ff303d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	d2192723-32c8-4d1c-bad7-11f8d90b5f93 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0707e8ae-d51b-49d1-8963-a84a68e3907a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0456c4ac-b0cf-4b8b-b49d-867bbd0e878d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	93482120-3298-447b-9ada-ac87417a7de3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	54023fab-2f5a-4213-949e-ffd4f9793cad 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2b00edf0-671c-4001-8713-6997356d01bd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	cfcf9166-50c7-4b05-b328-8d6efbd8045b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f003d892-8115-48e3-b0ad-483c0ed9e353 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	2b8335df-5002-4341-afbe-225e5679c132 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	a7d15f0a-5e38-49c9-8a92-ee7d3d1ed25b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	7d90be8a-e51c-4f40-8679-466d8c151fd0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fed63735-96ce-4460-acd0-3bdeedb501f5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	8734d4bb-173a-45e4-9c85-9ff3a3126a09 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	4f6f7288-062d-4ea2-8fff-8bf94bd80b21 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	c57f0a3b-da50-49d6-a254-fe3cd8d97e5c 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	964d7351-3745-40d6-9805-672af2ce0fe8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	dd1c5039-9676-4eae-bc0f-d6caeaa944cd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	b9b20108-cb56-42a9-aab0-8dd67d21c10a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	fc7b6873-d071-4e79-a21d-b89f43c86dba 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0633dec2-8ed2-4f80-a027-365ff0abdff2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	f045860a-635e-4bd3-b7a9-b07fb57ccf48 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	68841ede-afa2-4631-b0e3-d0d574e87933 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	0cd00515-ce22-4f5e-b58a-4d9ae59584e3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	48b82d62-bf2b-426d-ae34-ea23094fc8b9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	ddc0e4c9-00be-4d5f-89d8-ab8ab27fb86b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	6ad65215-6097-4ca9-9a18-a3a4c9624dc3 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	119ae566-d4ab-4574-bff2-31d7b32c295b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	e3a0eb84-02db-4cfd-97ef-7d5d950a5dfb 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+12/31/2023	20fbb0f8-b22d-4d06-94cf-e18966eb17e8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	a0f27eb2-eead-4e35-9497-55111edd604f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	1af372b3-2cb7-47f7-9b81-2ddbc3ffdb96 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	435d4eab-a4c7-4ce6-ba58-3ac961eda4b2 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	45e89910-7f11-4e11-b18b-5e06dfd033ba 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	407c1291-c251-4ac5-882d-fc7a29762844 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	a9c1688d-44af-410f-b2e3-5fa80e9bc753 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	9bbe205b-84ef-41c2-8fd2-ce973f981fef 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	edbd6619-2e02-4e1f-80b9-a2ab1ed10bc8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	ded1c57f-265a-4469-8ff6-b4abb953a762 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	ab43c125-46d5-45e8-8455-08d22a926652 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	2c9b6f56-d16d-4dbc-87b6-95b0a265b9a8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	552583af-9aa4-4f45-ba8a-63d092456fd0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	56a48234-1e2b-4e71-a2fe-45db4c78ecc4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	57927964-c77f-460c-b5ae-cbdd12bef6f9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	baadc976-cfac-4844-9ecc-2f2c6a6766ee 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	bdc97b3f-df58-415d-8ce9-fdd9cbf5a8e0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	4c22365d-e53a-4c09-b08b-232b603c7c70 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	f81188dc-b0db-4a61-a47b-4011c1fc4185 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	1a298996-5479-4b4d-986d-34fdba78989e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	8dec3046-2fdc-4653-8dbb-c4bcf773ac9b 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	7e8e8fa4-e70d-4658-b02f-2d2e88e0fad9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	fff1fa0e-c9ad-4c88-8aa1-6643353b4fb8 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	c2786b56-4663-411a-90ac-97512ed32259 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	a8b9a2ec-aa9e-49e8-89eb-458bfed699f9 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	e90bd6ac-7a97-4cdc-97b9-c74c5d6d5878 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	ec6af940-15a2-44b8-bc94-57a7f0a7c08e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	920df416-5725-4e8a-b95f-e8625bdbdda7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	a9f7c0d1-4283-47a9-bec3-2bcc88939103 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	19f77e1e-7e8f-41b4-b5d2-f9449d275dc4 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	2e987a51-48a8-4ee1-9018-c07876bc490d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	df6ab045-f0bc-4a11-ace8-63ec36c23b2e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	af2de5ba-7e07-4beb-8575-a38d1d21c84d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	e3ef4bf9-9d69-4985-a8de-e114acb79be6 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	6316ea50-bf9b-4880-ba64-7910b6dd1264 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	3bb95cb4-c0a8-4467-ad63-7fda6dd5bb9a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	027e7980-6047-4acb-9a56-ae18f2ead841 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	b7cfb817-3529-48a7-9a02-984f07ca0e96 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	72833ed3-4033-4fbd-a430-84b4b13f28a7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	3e1521f5-a260-45ab-9c30-2e43bfe06c74 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	b4052db4-0890-4471-9a03-e37d79a2278f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	3142fc96-cd8b-4c03-9a53-056b34d4139d 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	08581e41-050e-4ffe-b6ad-a38bd0c817dd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	f0286e4d-1499-4c17-81b8-0f9d1a78a0e0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	cf6ae4d0-f6b5-4592-9678-285baa71b5df 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	6d957a07-1ae4-4432-a32e-45ec0cb6b9dd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	27e58369-8f93-4255-8964-d8a0c12eeecd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	0db6d8df-7f90-48ae-8921-0758b179bf7a 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	5aac0d44-5ff6-4243-8405-42c2a2e63db1 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	e86261d2-cad5-4b7e-8d7e-5be2ce7c80a0 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	5b0d01e6-bd5c-44b6-a983-94be55177fa5 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	2781eec8-77b7-4e0d-b618-d9415e6daa0f 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	f5db99dd-7d0d-4950-82ec-264860889eec 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	e579f36b-bf6a-47a1-a053-c30bea50ced7 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	14506aec-175b-4c43-be11-53c039be3d73 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	d427e51c-04e8-49fd-aaaf-0336b7b80c60 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	a59d3c78-9d3c-45a3-9acf-4427e30e5ccc 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	81e25947-e8d7-40fd-915d-d63e31248878 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	0d09809e-85e1-420a-8e6d-cd5bf41c9ebd 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+13/31/2023	e9411882-f49c-4d32-a6ab-927b9a568d1e 	 TypeError	Cannot read properties of undefined (reading 'startsWith') logged
+14/31/2023	8bf84175-e9a0-4a07-821a-e1e441670b18 	 Error	Failed to lookup view "D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\shareCource.pug" in views directory "D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views" logged
+28/31/2023	3de03a8f-688e-4a37-9b86-7c6fc406fe66 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	065ea847-ab15-4533-8c12-524ee911eca6 	 Error	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\shareCourse.pug:12:127
+    10|   // G Fonts
+    11|   link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  > 12|   link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap', rel='stylesheet');
+--------------------------------------------------------------------------------------------------------------------------------------^
+    13|   link(rel='stylesheet', href='/css/style.css')
+    14|   link(rel='stylesheet', href='/css/shareCourse.css')
+    15|   link(rel='stylesheet', href='/css/about.css')
+
+unexpected text ";
+  l" logged
+28/31/2023	5e5137f8-638d-4500-b483-2c0dffefc809 	 Error	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\shareCourse.pug:12:127
+    10|   // G Fonts
+    11|   link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  > 12|   link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap', rel='stylesheet');
+--------------------------------------------------------------------------------------------------------------------------------------^
+    13|   link(rel='stylesheet', href='/css/style.css')
+    14|   link(rel='stylesheet', href='/css/shareCourse.css')
+    15|   link(rel='stylesheet', href='/css/about.css')
+
+unexpected text ";
+  l" logged
+28/31/2023	613be321-ae0b-4e51-8820-97e4677dfea8 	 Error	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\shareCourse.pug:12:127
+    10|   // G Fonts
+    11|   link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  > 12|   link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap', rel='stylesheet');
+--------------------------------------------------------------------------------------------------------------------------------------^
+    13|   link(rel='stylesheet', href='/css/style.css')
+    14|   link(rel='stylesheet', href='/css/shareCourse.css')
+    15|   link(rel='stylesheet', href='/css/about.css')
+
+unexpected text ";
+  l" logged
+28/31/2023	b24957fa-8eda-41c7-8f36-5200638320f1 	 Error	D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\subViews\shareCourse.pug:12:127
+    10|   // G Fonts
+    11|   link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  > 12|   link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap', rel='stylesheet');
+--------------------------------------------------------------------------------------------------------------------------------------^
+    13|   link(rel='stylesheet', href='/css/style.css')
+    14|   link(rel='stylesheet', href='/css/shareCourse.css')
+    15|   link(rel='stylesheet', href='/css/about.css')
+
+unexpected text ";
+  l" logged
+28/31/2023	09f38cc1-6ad7-4e26-b800-603baefbae26 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	410ee78e-634a-4aa6-9327-7c5a4bb0d47c 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	1081d5ea-782a-4059-9e2f-3995cb78b49e 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	e28769aa-7a5d-4277-b565-43975d7ccf34 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	af046b70-1fef-4e28-b1cc-506177bdc997 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	6169a569-5bbf-4d93-816f-77984383a1cb 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	57c6164a-dac3-418e-a9d7-1202c56a4fbd 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	4fa41da7-50f4-473c-9456-8ca6c827bb9d 	 Error	ENOENT: no such file or directory, stat 'D:\MY USERS\Aditya\IF5I\Node JS All Folders\12 MongoDb\views\rootViews\themes .html' logged
+28/31/2023	49db3abc-976a-441f-9c75-e17a93e6ea01 	 Error	D:\StudyGears\views\subViews\shareCourse.pug:12:127
+    10|   // G Fonts
+    11|   link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  > 12|   link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap', rel='stylesheet');
+--------------------------------------------------------------------------------------------------------------------------------------^
+    13|   link(rel='stylesheet', href='/css/style.css')
+    14|   link(rel='stylesheet', href='/css/shareCourse.css')
+    15|   link(rel='stylesheet', href='/css/about.css')
+
+unexpected text ";
+  l" logged
+30/31/2023	c09c35bf-029a-4c1d-b855-f5505f91bbae 	 Error	ENOENT: no such file or directory, stat 'D:\StudyGears\routes\views\rootViews\dashboard.html' logged
+1/41/2023	463424a6-48d3-4856-8bea-d9df2c5fcb59 	 Error	D:\StudyGears\views\rootViews\dashboard.pug:63:1
+    61|                 .course__image
+    62|                   img.admin__course__image(src=courses.course_banner, alt='')
+  > 63|                  p=courses.course_name    
+--------^
+    64|           -}
+    65|           h2.text-center Courses
+    66|           .container.courses__container
+
+Inconsistent indentation. Expecting either 16 or 18 spaces/tabs. logged
+1/41/2023	7d58c401-630d-4b24-abab-51418795d6f5 	 Error	ENOENT: no such file or directory, stat 'D:\StudyGears\views\rootViews\gchat.html' logged

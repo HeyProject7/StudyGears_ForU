@@ -1,0 +1,392 @@
+So no matter what you use as your browser - it could be Chrome,
+2
+
+it could be Safari or Firefox -
+3
+
+they all have a single purpose, and that's to interpret your files such as your HTML files, your CSS files,
+4
+
+your Javascript files, into a web site that should be displayed.
+5
+
+So, for example, we've got a little bit of HTML code here that says that our web site should have a title
+6
+
+called
+7
+
+Hello.
+8
+
+And in the body there should be a heading that says Hello World.
+9
+
+So if we pass that code into our browser it will open it and display it like so, with the title of the
+10
+
+web site usually on the tab bar, and that h1, or that big heading, showing up in the body of our web site.
+11
+
+So, before we dive deep into this, it's really important to remember that HTML is the foundation of
+12
+
+all web sites.
+13
+
+So, for example, you won't see web sites that are created using just a CSS file or just a Javascript file
+14
+
+but you can create web sites using just an HTML file.
+15
+
+Now it might not look great.
+16
+
+It'll probably look like it came from the 90s but it does enable your web site to display text or various
+17
+
+elements such as images or forms or tables depending on how you code up the HTML file.
+18
+
+So, HTML stands for Hypertext Markup Language, and the really important part here is the word
+19
+
+markup because there's many markup languages.
+20
+
+For example you might have heard of things such as XML, Extensible Markup Language, or GML, Generalized
+21
+
+Markup Language, and all of these languages share a common history.
+22
+
+They're based off the markup that used to be put into manuscripts where editors would mark up the manuscript
+23
+
+and either specify changes to the author or specify structure and layout to the publishers.
+24
+
+So for example you might have the squiggly line that shows the publishers that this part should be printed
+25
+
+in bold or this part should be printed in italics, and HTML works in much the same way.
+26
+
+You can specify the layout and structure of your website by using HTML tags.
+27
+
+So if you head over to your browser and go to a web site called codepen.io, then we can have a
+28
+
+look and have a play around with real life HTML. So, you don't have to sign up.
+29
+
+Just head over to codepen.io, and then hit Create, New Pen, and then we're going to change the view
+30
+
+to a format like this.
+31
+
+So this is the live version of our web site and these are the places where we're going to put our code.
+32
+
+So, as you can see, Code Pen let’s you put in HTML, CSS and Javascript, which will together get interpreted
+33
+
+and get shown on the left as your web site.
+34
+
+Now, as we're only working with HTML at the moment, I'm going to minimize the CSS and Javascript sections
+35
+
+and I'm just going to work from the HTML section.
+36
+
+Now we're going to need some text to work with or have something which we can give structure to.
+37
+
+If you head over to gutenberg.org/ebooks/1661, you get taken to The Adventures of Sherlock
+38
+
+Holmes by Arthur Conan Doyle.
+39
+
+So one of my favorite books of all time.
+40
+
+If you have a look down here you can see that you can view the book as plain text
+41
+
+or you can read this book online as HTML.
+42
+
+So this is what the plain text looks like.
+43
+
+It has all of the text in the book but absolutely no structure.
+44
+
+But, when we have a look at the HTML file, you can see that it has laid out the book with a structure
+45
+
+that is more human readable.
+46
+
+And this is what we're going to replicate using HTML.
+47
+
+So if you go ahead and just copy this part -The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle -
+48
+
+and you copy and place it into your pen,
+49
+
+so in the HTML section here. Now you can see that all of this text gets put onto the screen with absolutely
+50
+
+no structure.
+51
+
+And in order for this to start looking like this we're going to start adding a little bit of HTML.
+52
+
+So the first thing we can see is that this is the largest heading on the page. So we can make our website
+53
+
+look like that
+54
+
+also, by adding an h1 tag into our HTML. So the tags start with angular brackets and end with angular brackets
+55
+
+and in the middle is the type of element or the type of tag you want to use.
+56
+
+Now it's really important that when you open tags that you also close them, because as you can see here
+57
+
+I've got an open tag
+58
+
+but I have yet to close it, and it thinks that the entire contents of my page should be made into the
+59
+
+largest heading possible and that's not what I want.
+60
+
+I only want it for this section - The Adventures of Sherlock Holmes.
+61
+
+So, in order to close the tag, it's the same angle brackets,
+62
+
+but then I have to use a forward slash and then write h1.
+63
+
+So now only this part is an h1 or a large heading.
+64
+
+Now if we have a look at the other parts I would say that this word - by - is a little bit smaller than
+65
+
+the author's name.
+66
+
+So let's structure this as a heading also.
+67
+
+But let's make it a subtitle so let's make it a slightly smaller heading and to do that we can simply
+68
+
+wrap this text around an h2 tag. And now we have Sir Arthur Conan Doyle as a heading but in a smaller
+69
+
+size and shown with less importance than the big title.
+70
+
+So now finally we have this word - by -
+71
+
+and I reckon that's one size smaller than this heading, so let's go ahead and wrap this inside an h3.
+72
+
+So I hope you're starting to get the gist.
+73
+
+The heading tags get smaller as the number goes up.
+74
+
+So for example if I changed this to an h4 it gets even smaller, h5 smaller still, and all the way
+75
+
+until h6, which is the smallest font size for the heading element.
+76
+
+Now, if you keep going to h7, you'll notice that it doesn't do anything anymore.
+77
+
+It doesn't change the heading size and that's because the heading elements only go from h1 to h6.
+78
+
+Now how do I know that,
+79
+
+I hear you ask.
+80
+
+So this is a good point in the course to introduce documentation.
+81
+
+And the reason why I'm talking about it so early on is because of how important it is to your journey
+82
+
+as a web developer.
+83
+
+So one of the key skills in becoming a great web developer, or in fact any sort of programmer, is getting
+84
+
+good at finding out how you can help yourself and a lot of that involves getting good at googling.
+85
+
+How do you find the specific piece of information that's going to help you achieve what it is that you
+86
+
+want or help you understand what it is that you want to know.
+87
+
+So in this case we're talking about headings and we are using HTML and I'm going to add in the name of
+88
+
+the documentation that I prefer to use which is MDN and it stands for the Mozilla Developer Network,
+89
+
+so the same people who made Firefox for example.
+90
+
+So if I go ahead and hit enter,
+91
+
+you see a whole bunch of results come up.
+92
+
+And the most relevant for us is the h1 to h6 and it talks about headings.
+93
+
+So if we click on that you can learn more about the heading elements used in HTML and they even have
+94
+
+example code snippets that show you what it would look like rendered in a browser.
+95
+
+Now there's a couple of sources for documentation.
+96
+
+One is of course MDN. Another one is called W3 Schools.
+97
+
+So let's see if we try W3 Schools with HTML
+98
+
+and we're talking about headings, right?
+99
+
+Let’s see what we get here.
+100
+
+So HTML Headings is the first result that comes up.
+101
+
+And similarly you've got the code examples, you've got the results and you've got a little bit of notes
+102
+
+that tell you how you should be using your headings.
+103
+
+So both of these places have a lot of really useful usage notes and it's worth reading through when you’re
+104
+
+first coming across a particular element.
+105
+
+That way you'll have a good foundation of knowledge when you start to build and create your own web sites.
+106
+
+So I want to show you one last resource that I quite like using, which is called
+107
+
+devdocs.io.
+108
+
+And this is basically a web site that puts together a lot of the useful documentation in a structure that
+109
+
+I find to be quite handy.
+110
+
+So if we have a look inside the HTML5 tab, and we go into the elements, we can see that there's a total
+111
+
+of 135 elements and if you scroll down you can see that we've got h1 through to h6.
+112
+
+And if you click on any of these then it brings up actually the MDN documentation so you can see
+113
+
+that it's similar to what we saw on MDN but it's just structured in a very simple way and it's very
+114
+
+easy to follow.
+115
+
+So that's definitely a web site that's worth bookmarking.
+116
+
+So if we head back over to our HTML file we’re going to change that back to an h3, which is an
+117
+
+HTML tag that actually exists as opposed to something like h9.
+118
+
+So the next thing that we need to do in order to better replicate this web site is to add some space
+119
+
+between these lines.
+120
+
+Now in a word processor such as Word or Google Docs you'll be able to simply just hit enter a few times or
+121
+
+hit return a few times and get that spacing show up.
+122
+
+Now unfortunately in HTML it doesn't quite work like that.
+123
+
+It's a little bit more complicated. In order to create that spacing,
+124
+
+we actually have to use an HTML element called a line break and it's written like so.
+125
+
+And the interesting thing about this HTML element is that it doesn't require both an open and a close
+126
+
+tag.
+127
+
+So we have the h1 through to h6 tags.
+128
+
+You can see that we started out by marking the text with an h1 and then we close it off with a closing
+129
+
+tag but the line break element works all by itself and you can even put it inside like so to make this
+130
+
+part go onto a new line.
+131
+
+Now this is a good time point to review the anatomy of HTML tags.
+

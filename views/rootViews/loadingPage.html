@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyGears</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-bg1);
+            display: flex;
+            place-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        video {
+            width: 50%;
+            height: 70%;
+        }
+    </style>
+    <link rel="stylesheet" href="../../public/css/style.css" />
+</head>
+
+<body>
+    <!-- <img src="./videos/loading-icon.gif" alt=""> -->
+    <video src="./videos/Study.mp4" loop></video>
+</body>
+<script>
+    window.onload = () => {
+        document.querySelector('video').setAttribute('autoplay', 'true');
+    }
+    setTimeout(() => {
+        location.href = "./index.html"
+    }, 5000)
+</script>
+
+</html>

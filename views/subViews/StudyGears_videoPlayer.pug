@@ -1,0 +1,110 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Document
+  // IconCout
+  link(rel='stylesheet', href='https://unicons.iconscout.com/release/v4.0.0/css/line.css')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+
+  // G Fonts
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap', rel='stylesheet')
+  // Global css
+  style
+       include ../../public/css/style.css
+       include ../../public/css/video__player.css
+.player.container
+  video.player__video.viewer(src=links,autoplay)
+  .player__controls
+    .progress
+      .progress__filled
+    .myplayer__controls
+      button.player__button.toggle(title='Toggle Play')
+        i.uil.uil-play
+      input#range1.player__slider(type='range', name='volume', min='0.5', max='1', step='0.05', value='1')
+      input#range2.player__slider(type='range', name='playbackRate', min='0.5', max='2', step='0.1', value='1')
+      button.player__button(data-skip='-10')
+        i.uil.uil-backward
+        |  10s
+      button.player__button(data-skip='25')
+        i.uil.uil-forward
+        |  25s
+      button.player__button
+        i#cngRtio.uil.uil-expand-arrows-alt(onclick='makeFullScreen()')
+script.
+  // get Our Elements
+  const player = document.querySelector('.player');
+  const video = player.querySelector('.viewer');
+  // const progress = player__controls.firstElementChild();
+  const progress = player.querySelector('.progress');
+  const progressBar = player.querySelector('.progress__filled');
+  const toggle = player.querySelector('.toggle');
+  const skipButtons = player.querySelectorAll('[data-skip]');
+  // const ranges = player.querySelectorAll('input[type="range"]')
+  const ranges = player.querySelectorAll('input[type="range"]');
+  // const ranges = player.querySelectorAll('player__slider')
+  const fullScreen = player.querySelector('#cngRtio')
+  // Build Our Functions
+  function togglePlay() {
+  // Play Or Pause
+  const method = video.paused ? 'play' : 'pause';
+  // video[method]();
+  method ? video.play() : video.pause();
+  }
+  function updateButton() {
+  icon = video.paused ? '<i class="uil uil-play"></i>' : '<i class="uil uil-pause"></i>';
+  // toggle.textContent = icon
+  toggle.innerHTML = icon;
+  }
+  function skip() {
+  // this - video tag
+  console.log(this.dataset)
+  video.currentTime += parseFloat(this.dataset.skip)
+  }
+  function handleRangeUpdate() {
+  console.log(this.value)
+  console.log(this.name)
+  video[this.name] = this.value; // name = volume,playBackRate
+  }
+  function handleProgress() {
+  const percent = (video.currentTime / video.duration) * 100;
+  progressBar.style.width = `${percent}%`
+  // progressBar.style.flexBasis = `${percent}%`
+  }
+  // Drag Video Timer
+  function scrub(e) {
+  console.log(e)
+  const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
+  video.currentTime = scrubTime;
+  progressBar.style.width = scrubTime;
+  }
+  var flag = 0;
+  function makeFullScreen() {
+  if (flag == 0) {
+  player.style.width = "100vw";
+  player.style.height = "100vh";
+  fullScreen.classList.toggle('uil-compress-arrows');
+  fullScreen.classList.toggle('uil-expand-arrows-alt');
+  flag = 1;
+  } else {
+  player.style.width = "fit-content";
+  player.style.height = "fit-content";
+  flag = 0;
+  }
+  }
+  // Hook Up Events
+  video.addEventListener('click', togglePlay);
+  video.addEventListener('play', updateButton);
+  video.addEventListener('pause', updateButton);
+  video.addEventListener('timeupdate', handleProgress);
+  toggle.addEventListener('click', togglePlay);
+  skipButtons.forEach(button => button.addEventListener('click', skip))
+  ranges.forEach(range => range.addEventListener('change', handleRangeUpdate));
+  ranges.forEach(range => range.addEventListener('mousemove', handleRangeUpdate));
+  let mousedown = false;
+  progress.addEventListener('click', scrub)
+  progress.addEventListener('mousemove', (e) => mousedown && scrub(e))
+  progress.addEventListener('mousedown', () => mousedown = true)
+  progress.addEventListener('mouseup', () => mousedown = false);

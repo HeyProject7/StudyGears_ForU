@@ -1,0 +1,101 @@
+/*  ========= Share Course ========= */
+/* body{
+    display:fixed;
+} */
+html,body{
+          background: url('../images/courseBg.svg') no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+          background-attachment: fixed;
+}
+.share{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin:auto 2rem;
+}
+.share__course{
+          position: fixed;
+          font-size: 1.8rem;
+          background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+          top:5.7rem;
+          right:2.5rem;
+          padding:0.7rem;
+          border-radius:50%;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          transition: var(--transition);
+      }
+      .share__course:hover{
+          cursor: pointer;
+          border-color: var(--color-white);
+          transform: scale(1.1);
+          background-color: var(--color-warning);
+          color: var(--color-black);
+          box-shadow: 0 0 3rem rgb(113, 37, 255);
+      }
+      footer{
+        margin-top:0 !important;
+      }
+  
+      .share__course__container{
+          width:80%;
+          height:50vh;
+          margin-top: 6rem;     
+          border-radius: 1.2rem;
+          background: rgba( 255, 255, 255, 0.25 );
+          box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+          backdrop-filter: blur( 5.5px );
+          -webkit-backdrop-filter: blur( 5.5px );
+          border-radius: 10px;
+          border: 1px solid rgba( 255, 255, 255, 0.18 );
+          position: relative;
+          bottom:-3rem;   
+      }
+      .share__form{
+          place-items: center;
+          padding:0;
+          margin:3rem;
+          width:90%;
+      }
+      .share__url{
+          padding:1rem;
+          min-width: 60% !important;
+          background: #ebe8e8;
+          font-weight: bold;
+          color:rgb(139, 139, 139);
+          height:100% !important;
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 1rem;
+      }
+      .share__field{
+          position: fixed;
+      }
+      .share__icon{
+          font-size: 1.4rem;
+          padding:1.2rem;
+          background-color: var(--color-bg1);
+          max-height:100% !important;
+      }
+      .share__icon:hover{
+          background-color: var(--color-blue);
+          cursor: pointer;
+      }
+      .text-top{
+        margin:2rem auto;
+      }
+      .share__icon__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .share__icon__img{
+        background: url('../images/refer8.png');
+        background-repeat: no-repeat;
+        width:40vw;
+        position: relative;
+        bottom:-3rem;
+        height:50vh;
+      }

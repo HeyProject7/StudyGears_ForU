@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <!-- IconCout  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- G Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .themes {
+            padding-top: 2rem !important;
+        }
+
+        .theme__container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.7rem;
+            padding: 2rem;
+        }
+
+        .theme__box {
+            color: black;
+            background: rgb(255, 255, 255);
+            margin-top: 2rem;
+            height: 40vh;
+            width: 20vw;
+            border-radius: 2rem;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .theme__box:hover {
+            transform: scale(1.1);
+            box-shadow: 0.5rem 0.9rem 5rem rgba(0, 0, 0, 0.80);
+            background: rgb(229, 230, 207);
+        }
+
+        .theme__color:nth-child(1) {
+            background-color: rebeccapurple;
+            width: 50%;
+            height: 50%;
+            border-radius: 50%;
+            margin: 3rem auto;
+            border: 5px solid whitesmoke;
+        }
+
+        @media screen and (max-width: 600px) {
+            .theme__container {
+                grid-template-columns: 1fr;
+            }
+
+            .theme__box {
+                width: 80%;
+                margin: 1rem auto;
+                border-radius: 0.9rem;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            .theme__container {
+                grid-template-columns: 1fr 1fr;
+
+            }
+
+            .theme__box {
+                width: 80%;
+                margin: 1rem auto;
+                border-radius: 0.9rem;
+                height: 20rem;
+            }
+        }
+
+        /* .theme__color:nth-child(1){
+                    background-color: red;
+          } */
+    </style>
+
+<body style="background:linear-gradient(129deg, #eb8c8c, #8908ff,#251f45)">
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav__container">
+            <a href="/index.html" class="nav__icon">
+                <h2>StudyGears</h2>
+            </a>
+            <div class="coins__head">
+                <img class="coins__icon" src="./images/coinMe_prev_ui (2).png" alt="">
+                <p class="coins__value">$1000</p>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/courses.html">Courses</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!--  Header  -->
+    <session class="themes" style="margin-top: 3rem;">
+        <div class="container themes__container">
+            <h1 class="text-center text-white" style="margin-top: 4rem;">StudyGears Themes</h1>
+            <div class="theme__container">
+                <article class="theme__box">
+                    <div class="theme__color"></div>
+                    <div class="theme__name">
+                        <input type="hidden" value="0" />
+                        <h2 class="text-center">Grace Blue</h2>
+                    </div>
+                </article>
+                <article class="theme__box">
+                    <div class="theme__color" style="background: #eb4141;"></div>
+                    <div class="theme__name">
+                        <input type="hidden" value="1" />
+                        <h2 class="text-center">Master Red</h2>
+                    </div>
+                </article>
+                <article class="theme__box">
+                    <div class="theme__color" style="background: #3881aa;"></div>
+                    <div class="theme__name">
+                        <input type="hidden" value="2" />
+                        <h2 class="text-center">Light Sky</h2>
+                    </div>
+                </article>
+                <article class="theme__box">
+                    <div class="theme__color" style="background: #f3d459;"></div>
+                    <div class="theme__name">
+                        <input type="hidden" value="3" />
+                        <h2 class="text-center">Mighty Mango</h2>
+                    </div>
+                </article>
+                <article class="theme__box">
+                    <div class="theme__color" style="background: #948997;"></div>
+                    <div class="theme__name">
+                        <input type="hidden" value="3" />
+                        <h2 class="text-center">Gribby Grey</h2>
+                    </div>
+                </article>
+                <article class="theme__box">
+                    <div class="theme__color" style="background: #ff96ff;"></div>
+                    <div class="theme__name">
+                        <input type="hidden" value="3" />
+                        <h2 class="text-center">Swetty Pink</h2>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </session>
+    <script src="main.js"></script>
+</body>
+<script>
+    // Change Color On Scroll Window
+    window.addEventListener( 'scroll', () =>
+    {
+        document.querySelector( 'nav' ).classList.toggle( 'window-scroll', window.scrollY>0 )
+    } );
+
+    var background=[ 'black', 'white', 'purple', 'darkblue' ];
+    Array.from( document.querySelectorAll( '.theme__box' ) ).forEach( element =>
+    {
+        element.addEventListener( 'mouseenter', () =>
+        {
+            document.body.style.backgroundColor=background[ parseInt( element.querySelector( 'input' ).value ) ];
+        } )
+    } );
+</script>
+
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Schibsted+Grotesk:wght@500&family=Ubuntu&display=swap');
+
+body {
+    background-attachment: fixed;
+}
+.post__details__container{
+    box-shadow: 10px 15px 40px rgba(0, 0, 0, 0.70);
+}
+.admin__auth {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.login__left {
+    background: url('../images/secure.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100vh;
+    width: 100%;
+}
+
+.login__right {
+    margin: 10rem auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.auth__container {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.auth_form {
+    display: grid;
+    grid-template-columns: 1;
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.auth__form__color{
+    padding: 1.5rem;
+    color: var(--color-black); 
+     background: whitesmoke;
+    box-shadow: 10px 15px 13px rgba(0, 0, 0, 0.25);
+}
+
+.admin__label {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.admin__field {
+    border: 2px solid #7a17ca;
+    background: #e1e1e1;
+    font-weight: bold;
+    display: flex;
+    color: rgba(44, 44, 44, 0.61);
+    font-size: 1.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.3s ease;
+}
+
+.admin__field:focus {
+    box-shadow: 0.7rem 0.7rem 2rem rgba(44, 44, 44, 0.61);
+    transform: scale(1.0);
+}
+
+.uil-user-circle,
+.uil-key-skeleton,.uil-meeting-board,.uil-link,.uil-book-reader{
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    place-items: center;
+    padding:3px;
+    background-color: var(--color-primary);
+}
+
+.admin__info {
+    padding: 0.8rem;
+    width: 30vw;
+    font-size: 1.3rem;  
+    color:rgb(142, 141, 141);
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Schibsted Grotesk', sans-serif;
+
+    background: transparent;
+}
+
+.admin__btn {
+    width: fit-content;
+    margin-top: 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-weight: bolder;
+}

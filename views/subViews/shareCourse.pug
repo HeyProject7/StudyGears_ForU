@@ -1,0 +1,130 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title StudyGears
+  // IconCout
+  link(rel='stylesheet', href='https://unicons.iconscout.com/release/v4.0.0/css/line.css')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  // G Fonts
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap', rel='stylesheet')
+  link(rel='stylesheet', href='/css/style.css')
+  link(rel='stylesheet', href='/css/shareCourse.css')
+  link(rel='stylesheet', href='/css/about.css')
+  link(rel='stylesheet', href='/css/admin.css')
+// Navbar
+nav
+  .container.nav__container
+    a.nav__icon(href='index.html')
+      h2 StudyGears
+    .coins__head
+      img.coins__icon(src='./../images/coinMe_prev_ui (2).png', alt='')
+      p.coins__value $1000
+    ul.nav__menu
+      li
+        a(href='index.html') Home
+      li
+        a(href='courses.html') Courses
+      li
+        a(href='about.html') About
+      li
+        a(href='contact.html') Contact
+    button#open-menu-btn
+      i.uil.uil-bars
+    button#close-menu-btn
+      i.uil.uil-multiply
+// Header
+section.share
+  .container.share__course__container.flex-column-center
+    h1.text-center.text-top Use The Code To Refer
+    article.share__form.flex-row-center
+      .share__field.flex-row-center
+        input.share__url(type='text', placeholder='url', value=(url+"?code="+refer_code))
+        button.uil.uil-copy-alt.place-center.share__icon
+  .share__icon__container
+    .share__icon__img
+// Footer
+//- footer.footer
+//-   .container.footer__container
+//-     .footer-1
+//-       h4
+//-         a.footer__logo(href='') Studygears
+//-       p Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, at.
+//-     .footer-2
+//-       h4 Permalinks
+//-       ul
+//-         li
+//-           a(href='index.html') Home
+//-         li
+//-           a(href='courses.html') Cureses
+//-         li
+//-           a(href='about.html') About
+//-         li
+//-           a(href='contact.html') Contact Us
+//-     .footer-3
+//-       h4 Privacy
+//-       a(href='') Privacy Policy
+//-       a(href='') Terms And Conditions
+//-       a(href='') Secuity Policy
+//-     .footer-4
+//-       h4 Contact Us
+//-       div
+//-         p
+//-         p +91-7507546319
+//-         p projectaavs.cpp@gmail.com
+//-         p
+//-       ul.footer__social
+//-         li
+//-           a(href='#')
+//-             i.uil.uil-instagram
+//-         li
+//-           a(href='#')
+//-             i.uil.uil-github
+//-         li
+//-           a(href='#')
+//-             i.uil.uil-facebook-f
+//-   .footer__copyright
+//-     small Copright &copy; StudyGears 
+// Global Chat Icon
+.chat__mint(onclick="location.href='https://trying-new-gchat.musaleshubham7.repl.co/'")
+  i.uil.uil-comments-alt
+// Login User Account
+.user__login
+  img(src='./images/login__user.png', alt='')
+script(src='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js')
+script.
+  // Change Color On Scroll Window
+  window.addEventListener('scroll', () => {
+  document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+  });
+  // Show DropDownNavBar
+  const menu = document.querySelector('.nav__menu');
+  var menuBtn = document.querySelector('#open-menu-btn');
+  var closeBtn = document.querySelector('#close-menu-btn');
+  menuBtn.addEventListener('click', () => {
+  menu.style.display = "flex";
+  menuBtn.style.display = "none";
+  closeBtn.style.display = "inline-block";
+  });
+  closeBtn.addEventListener('click', () => {
+  menu.style.display = "none";
+  menuBtn.style.display = "inline-block";
+  closeBtn.style.display = "none";
+  console.log("Hi");
+  });
+
+  // Copy To Clipboard
+  document.querySelector('.share__icon').addEventListener('click', () => {
+    var text = document.querySelector('.share__url').value;
+    const copyContent = async()=>{
+        try{
+            await navigator.clipboard.writeText(text);
+        }catch(e){
+            console.log("Error In Copying ");
+        }
+    }
+    copyContent();
+    });
+

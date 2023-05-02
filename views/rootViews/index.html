@@ -1,0 +1,620 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyGears</title>
+    <!-- IconCout  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- G Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/focus.css">
+
+    <!--  Swiper JS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <style>
+        .swiper {
+            height: fit-content;
+            padding-top: 4rem;
+        }
+    </style>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav__container">
+            <a href="/index.html" class="nav__icon">
+                <h2>StudyGears</h2>
+            </a>
+            <div class="coins__head">
+                <img class="coins__icon" src="./images/coinMe_prev_ui (2).png" alt="">
+                <p class="coins__value">$1000</p>
+            </div>
+            <ul class="nav__menu">
+                <li class="focus__item"><img src="/images/focus__icon.png" style="width:2.3rem" class="focus__icon"
+                        onclick="location.href='https://gchat.aavsproject.repl.co/'" /></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/courses.html">Courses</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!--  Header  -->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>StudyGears <br />Let's Powerup Your Skills</h1>
+                <p>
+                    Hey This Is StudyGears Your Personal Study Buddy! <br> Here You can Access Many Resourses (Free
+                    Courses , Study Resources) And Many More Let's Get Your Day Become More Effiecctive<br> Why Late
+                    Scroll Down To Access Awesome StudyGears
+                    Features
+                </p>
+                <a href="./courses.html" class="btn btn-danger">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image" id="header__image">
+                    <img src="./images/top__image2.avif" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--  Coureses   -->
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>Hey
+                <p class="user__name" style="display: inline;"> </p> Let's Get Introduced About Graceful Features of Our
+                Studygears Your
+                Personal
+                Assiastant<br> Remind Your Mind To do New Things Ready Now , Why late Let's Explore categories Then..
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon category1__img"><i class="uil uil-book-alt"></i></span>
+                    <h5>Free Courses</h5>
+                    <p class="category__desc">
+                        Let Learn The Free Courses And gain Knowledge And Earn Super Coins , Badges And More ...
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon category1__img"><i class="uil uil-file-bookmark-alt"></i></span>
+                    <h5>Study Resources</h5>
+                    <p class="category__desc">
+                        Get Free Study Resources Openly And Freely .
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon category1__img"><i class="uil uil-basketball"></i></span>
+                    <h5>Play Games</h5>
+                    <p class="category__desc">
+                        Play Awesome Games And BoostUp Your Super Coins
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon category1__img"><i class="uil uil-clipboard-notes"></i></span>
+                    <h5>Todo List</h5>
+                    <p class="category__desc">
+                        Sehedule Your Work Make And Maintain Consistency
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon category1__img"><i class="uil uil-book-reader"></i></span>
+                    <h5>Tests</h5>
+                    <p class="category__desc">Let's Practise Things Now</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon category1__img"><i class="uil uil-comments-alt"></i></span>
+                    <h5>Global Chat</h5>
+                    <p class="category__desc">
+                        Raise Your Questions And Give The Solutions TO Others And Earn Super Coins
+                    </p>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <!--  Popular Courses   -->
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course_1.png" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>Html For Beginners</h4>
+                    <p>
+                        - By Apna Collage
+                    </p>
+
+                    <a href="./courses.html" class="btn btn-primary">Let Get This</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course_2.png" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>Advanced HTML </h4>
+                    <p>
+                        - By Technical Gyan
+                    </p>
+
+                    <a href="./courses.html" class="btn btn-primary">Let Get This</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course_3.webp" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>JavaScript </h4>
+                    <p>
+                        - By CodeWithHarry
+                    </p>
+
+                    <a href="./courses.html" class="btn btn-primary">Let Get This</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--  Frequently Asked Questions -->
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon">
+                    <video src="./videos/plue.mp4" autoplay loop></video>
+                </div>
+                <div class="question__answer">
+                    <h4>How To Earn Coins By Refer And Earn</h4>
+                    <p>
+                        You Need To Click On Refer And Earn And Share Knowledge To Others And Gain Supercoins
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <video src="./videos/plue.mp4" autoplay loop></video>
+                </div>
+                <div class="question__answer">
+                    <h4>How To Grow Your Tree</h4>
+                    <p>
+                        Hey You Can Simply Grow Your Tree For That You Just Need To Make Consistency In App
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon">
+                    <video src="./videos/plue.mp4" autoplay loop></video>
+                </div>
+                <div class="question__answer">
+                    <h4>How to Access StudyGears Paid Courses</h4>
+                    <p>
+                        Your Can Navigate To Courses Tab
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon">
+                    <video src="./videos/plue.mp4" autoplay loop></video>
+                </div>
+                <div class="question__answer">
+                    <h4>How to Start Focus Mode</h4>
+                    <p>
+                        You Can Start Focus Mode And Get More Coins By Simply Clicking On Focus Mode Icon
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <video src="./videos/plue.mp4" autoplay loop></video>
+                </div>
+                <div class="question__answer">
+                    <h4>How to Add Query To Admin</h4>
+                    <p>
+                        Simply Navigate TO Contact Us And Post Your Problems
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <video src="./videos/plue.mp4" autoplay loop></video>
+                </div>
+                <div class="question__answer">
+                    <h4>Using Global Chat</h4>
+                    <p>
+                        The Studygears Global Chat Is A Free Chat Application That Can Be Used To Share Your Queries
+                        Expert
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Student Testinomials -->
+    <section class="container">
+        <h2 class="text-center">Student's Testinomials</h2>
+        <div class="swiper myswiper">
+            <div class="swiper-wrapper">
+                <article class="swiper-slide testimomial">
+                    <div class="testimonial__avatar">
+                        <img src="./images/testinomials__user.jpg" alt="" />
+                    </div>
+                    <div class="testimomial__info">
+                        <h3>Aditya</h3>
+                        <h6>student</h6>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            I just wanted to take a moment to express my appreciation for your outstanding
+                            service/product. I recently had the pleasure of using it and I must say, I was thoroughly
+                            impressed with the quality and effectiveness.
+                        </p>
+                    </div>
+                </article>
+                <article class="swiper-slide testimomial">
+                    <div class="testimonial__avatar">
+                        <img src="./images/testinomials__user1.jpg" alt="" />
+                    </div>
+                    <div class="testimomial__info">
+                        <h3>Shubham</h3>
+                        <h6>Student</h6>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam alias, autem minima nam
+                            numquam illo. Ad id sit omnis sunt deserunt soluta laudantium esse, incidunt ex voluptatibus
+                            repellendus eos autem saepe mollitia.
+                        </p>
+                    </div>
+                </article>
+                <article class="swiper-slide testimomial">
+                    <div class="testimonial__avatar">
+                        <img src="./images/testinomials__user1.jpg" alt="" />
+                    </div>
+                    <div class="testimomial__info">
+                        <h3>Vinod</h3>
+                        <h6>student</h6>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam alias, autem minima nam
+                            numquam illo. Ad id sit omnis sunt deserunt soluta laudantium esse, incidunt ex voluptatibus
+                            repellendus eos autem saepe mollitia.
+                        </p>
+                    </div>
+                </article>
+                <article class="swiper-slide testimomial">
+                    <div class="testimonial__avatar">
+                        <img src="./images/testinomials__user2.jpg" alt="" />
+                    </div>
+                    <div class="testimomial__info">
+                        <h3>Marina</h3>
+                        <h6>student</h6>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam alias, autem minima nam
+                            numquam illo. Ad id sit omnis sunt deserunt soluta laudantium esse, incidunt ex voluptatibus
+                            repellendus eos autem saepe mollitia.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-pagination swiper__navigator"></div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer-1">
+                <h4><a href="" class="footer__logo">Studygears</a></h4>
+                <p>Your Personal Study Buddy</p>
+            </div>
+            <div class="footer-2">
+                <h4>Permalinks</h4>
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./courses.html">Cureses</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-3">
+                <h4>Privacy</h4>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms And Conditions</a>
+                <a href="">Secuity Policy</a>
+            </div>
+            <div class="footer-4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p></p>
+                    <p><a href="tel:+91-7507546319">+91-7507546319</a></p>
+                    <p>projectaavs.cpp@gmail.com</p>
+                    <p></p>
+                </div>
+                <ul class="footer__social">
+                    <li>
+                        <a href="#">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copright &copy; StudyGears </small>
+        </div>
+    </footer>
+
+    <!-- Games -->
+    <div class="chat__mint game__widget" onclick="location.href='https://game-dashboard.33-vinodvinod.repl.co/'">
+        <i class="uil uil-basketball"></i>
+    </div>
+
+    <!-- ChatMint -->
+    <div class="chat__mint"
+        onclick="location.href='https://copy-of-db-the-real-chattttttttttt-working.musaleshubham7.repl.co/'">
+        <i class="uil uil-comments-alt"></i>
+    </div>
+
+    <!-- Todo List  -->
+    <div class="chat__mint todo__icon"
+        onclick="location.href='https://dupli-dupli-to-do-databse-vinod.musaleshubham7.repl.co'">
+        <i class="uil uil-clipboard-notes"></i>
+    </div>
+
+    <!-- Login User Account -->
+    <div class="user__login" onclick="showDashboard()">
+        <img class="user__image" src="/images/login__user2.png" alt="">
+    </div>
+
+    <!-- POPUP Login container -->
+    <div class="login__dashboard">
+        <div class="login__dashboard__info">
+            <img class="user__image">
+            <h2 class="login__dashboard__name user__name">Guest</h2>
+            <p class="login__dashboard__category">Basic</p>
+        </div>
+        <div class="login my_flex">
+            <i class="uil uil-user-plus"></i>
+            <a href="/login_signIn.html">Login</a>
+        </div>
+        <div class="sign_up my_flex">
+            <i class="uil uil-signin"></i>
+            <a href="./register.html">SignUp</a>
+        </div>
+        <div class="themes my_flex">
+            <i class="uil uil-swatchbook"></i>
+            <a href="/themes.html">Themes</a>
+        </div>
+        <div class="downloads my_flex">
+            <i class="uil uil-import"></i>
+            <a>Downloads</a>
+        </div>
+        <div class="logout my_flex" onclick="javascript:logOut()">
+            <i class="uil uil-sign-out-alt"></i>
+            <a onclick="javascript:logout()">Logout</a>
+        </div>
+    </div>
+    <!-- SWIPER JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- <script src="main.js"></script> -->
+    <script>
+        // Load Default User Image
+        Array.from( document.getElementsByClassName( 'user__name' ) ).forEach( e =>
+        {
+            e.innerHTML="Guest"
+        } )
+        Array.from( document.getElementsByClassName( 'user__image' ) ).forEach( e =>
+        {
+            e.style.src="/images/login__user2.png"
+        } );
+
+
+        // Swiper
+        var swiper=new Swiper( ".myswiper", {
+            slidesPerView: 1,
+            spaceBetween: 60,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                800: {
+                    slidesPerView: 1
+                }
+            }
+        } );
+        var swiper=new Swiper( ".mySwiper33", {
+            slidesPerView: 1,
+            spaceBetween: 60,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                800: {
+                    slidesPerView: 1
+                }
+            }
+        } );
+
+        function showDashboard ()
+        {
+            login__dashboard=document.querySelector( '.login__dashboard' );
+            login__dashboard.classList.toggle( 'showDash' );
+        }
+
+
+        // Change Color On Scroll Window
+        window.addEventListener( 'scroll', () =>
+        {
+            document.querySelector( 'nav' ).classList.toggle( 'window-scroll', window.scrollY>0 )
+        } );
+
+        // Open Answer When Plus Button before Question Clicked
+        var question__answer=Array.prototype.slice.call( document.querySelectorAll( '.question__answer' ) );
+        var faqs=document.querySelectorAll( '.faq' );
+        faqs.forEach( faq =>
+        {
+            faq.addEventListener( 'click', () =>
+            {
+                faq.classList.toggle( 'open' );
+                //  Change Icon 
+                icon=faq.querySelector( 'video' );
+                myIcon=icon.src.split( '/' )[ 4 ]
+                console.log( myIcon )
+                if ( myIcon=="plue.mp4" )
+                {
+                    icon.src="./videos/faq__icon.mp4"
+                } else
+                {
+                    icon.src="./videos/plue.mp4"
+                }
+                console.log( 'Icon', icon );
+            } );
+
+        } );
+
+        // Show DropDownNavBar
+        const menu=document.querySelector( '.nav__menu' );
+        var menuBtn=document.querySelector( '#open-menu-btn' );
+        var closeBtn=document.querySelector( '#close-menu-btn' );
+        menuBtn.addEventListener( 'click', () =>
+        {
+            menu.style.display="flex";
+            menuBtn.style.display="none";
+            closeBtn.style.display="inline-block";
+        } );
+        closeBtn.addEventListener( 'click', () =>
+        {
+            menu.style.display="none";
+            menuBtn.style.display="inline-block";
+            closeBtn.style.display="none";
+            console.log( "Hi" );
+        } );
+
+
+        function showDashboard ()
+        {
+            login__dashboard=document.querySelector( '.login__dashboard' );
+            login__dashboard.classList.toggle( 'showDash' );
+        }
+
+        // Login-signUp
+        // Parse query string to see if page request is coming from OAuth 2.0 server.
+        try
+        {
+            var params={};
+            var regex=/([^&=]+)=([^&]*)/g,
+                m;
+            var m;
+            while ( m=regex.exec( location.href ) )
+            {
+                params[ decodeURIComponent( m[ 1 ] ) ]=decodeURIComponent( m[ 2 ] );
+            }
+
+            if ( Object.keys( params ).length>0 )
+            {
+                localStorage.setItem( 'authInfo', JSON.stringify( params ) );
+            }
+            // Hide Access Token
+            window.history.pushState( {}, document.title, "/"+"index.html" );
+            let info=JSON.parse( localStorage.getItem( 'authInfo' ) );
+            console.log( info );
+            console.log( info[ 'access_token' ] )
+            console.log( info[ 'expires_in' ] )
+            console.log( "Image :", info.picture );
+
+            fetch( "https://www.googleapis.com/oauth2/v3/userinfo", {
+                headers: {
+                    Authorization: `Bearer ${ info[ 'access_token' ] }`
+                }
+            } ).then( data => data.json() ).then( info =>
+            {
+                console.log( info );
+                sessionStorage.setItem( 'username', info.name );
+                // document.getElementById('user__name').innerHTML = info.name;
+                // document.getElementById('user__image').setAttribute('src', info.picture);
+                Array.from( document.getElementsByClassName( 'user__name' ) ).forEach( e =>
+                {
+                    e.innerHTML=info.name
+                } )
+                Array.from( document.getElementsByClassName( 'user__image' ) ).forEach( e =>
+                {
+                    e.src=info.picture
+                } )
+            } )
+
+            var logOut=async () =>
+            {
+                var confirming=confirm( "Are You Want To Logout" );
+                if ( confirming )
+                {
+                    const data=await fetch( `https://oauth2.googleapis.com/revoke?token=${ info[ 'access_token' ] }`, {
+                        method: "POST",
+                        headers: {
+                            'Content-type': "application/x-www-form-urlencoded"
+                        }
+                    } );
+                    console.log( data );
+                    location.href="http://localhost:3000/index.html"
+                }
+            }
+        } catch ( error )
+        {
+            console.log( error );
+        }
+        console.log( "Data ", sessionStorage.getItem( 'username' ) );
+        console.log( "Data ", sessionStorage.getItem( 'supercoins' ) );
+    </script>
+</body>
+
+</html>

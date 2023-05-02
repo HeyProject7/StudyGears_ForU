@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <!-- IconCout  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- G Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/access.css">
+
+<body>
+    <div class="logo__container float__top">
+
+    </div>
+    <!--  Header  -->
+    <session class="access__container admin__auth">
+        <div class="access__left">
+            <i class="uil uil-shield-check text-center"></i>
+            <h2>Verify Access Token</h2>
+            <p>Please Check Your Mail For Access Token</p>
+            <p>Submit Your Access Token To Authorize Your Account</p>
+        </div>
+        <div class="access__right">
+            <div class="access__form">
+                <h2 class="text-center text-black head">Authorization</h1>
+                    <form action="/dashboard" method="get" class="access__main__form">
+                        <input type="hidden" name="roles" value="admin" <div class="access__field">
+                        <textarea class="access_info" name="token" placeholder="Paste Your Access Token Here" id=""
+                            cols="30" rows="10" required></textarea>
+                        <!-- <input type="text" class="admin__info" name="accessToken" placeholder="Paste Your Access Token Here" required> -->
+            </div>
+            <button type="submit" class="btn admin__btn">Submit Token</button>
+            </form>
+        </div>
+        </div>
+    </session>
+    <script src="main.js"></script>
+</body>
+
+</html>

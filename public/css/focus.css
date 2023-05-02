@@ -1,0 +1,117 @@
+.focus__container{
+          display: flex;
+          flex-direction: column;
+          justify-self: center;
+          align-items: center;
+          margin:3rem auto;
+}
+.focus__buttons{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 3rem;
+    width: 50%;
+}
+.focus__button{
+          padding:20% ;
+          border:4px solid transparent;
+          font-size: 1.5rem;
+          font-weight: 700;
+          cursor: pointer;
+          color: rgb(16, 26, 42);
+          transition: all 700ms;
+          background: rgb(248, 239, 239);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          border-radius: 2rem;
+          text-align: center;
+          box-shadow: 0.9rem 1.2rem 2rem rgba(0,0,0,0.25);
+          /* height: 20vh; */
+}
+.focus__button:hover{
+          border-color: antiquewhite;
+          color: whitesmoke;
+          background: transparent;
+          transform:scale(1.1);
+}
+.focus__icon{
+          transition: all 200ms;
+          cursor: pointer;
+}
+.focus__icon:hover{
+          transform: scale(1.4);
+}
+/* Focus Animation */
+html,body{
+          padding:0;
+          margin:0;
+}
+.goal__task{
+          background: url('./../images/focus__bg.jpg');
+          width: 100vw;
+          height: 100vh;
+          border-radius: 2rem;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          animation-name: zoomBounce;
+          animation-duration: 5s;
+          animation-timing-function: cubic-bezier(0.63,-0.68, 0.02,-0.81);
+          animation-iteration-count: 1;
+          animation-direction: alternate;
+          animation-fill-mode: forwards;
+}
+
+
+/* Start Focus */
+.buttons{
+          display: flex;
+          flex-direction: row;
+          gap: 2rem;
+          margin-top: 2rem;
+}
+.growth__progress{
+          background: url('./../images/tree1.jpg');
+          border-radius: 2rem;
+          width:60vw;
+          height:60vh;
+          object-fit: cover;
+          background-size: 100% 100% !important;
+          background-repeat: no-repeat;
+}
+#demo1{
+          text-align: center;
+          background: transparent;
+          font-family: 'Courier New', Courier, monospace;
+          color:white;
+          font-weight: bolder;
+          font-size: 2rem;
+          margin:2rem 0;
+}
+.start__focus__container{
+          margin:1rem auto;
+          display: flex;
+          flex-direction: column;
+          place-items: center;
+}
+
+
+
+@keyframes zoomBounce{
+          0%{
+                transform: scale(1.1);
+                opacity: 0.5;
+          }
+          50%{
+                transform: scale(1.2);
+                opacity: 1;
+          }
+          100%{
+                transform: scale(1);
+                opacity: 0;
+          }
+}
+@media screen and (max-width: 1000px) {
+    .focus__buttons{
+          width: 80%;
+          gap:1rem;
+    }
+}

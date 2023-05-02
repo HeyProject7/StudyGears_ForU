@@ -1,0 +1,158 @@
+.register {
+    background-color: rgb(150 51 255);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 0;
+    object-fit: cover;
+}
+
+.register__left img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: fill;
+    background-size: cover;
+}
+
+.register__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register__container {
+    background-color: var(--color-white);
+    height: fit-content;
+    width: 60%;
+    border-radius: 1.9rem;
+    text-align: center;
+    box-shadow: 0 0 5rem rgb(79, 11, 151);
+    animation: glowUp 1.5s ease;
+    padding-bottom: 1rem;
+}
+
+@keyframes glowUp {
+    0% {
+        transform: rotateX('0');
+    }
+    50% {
+        transform: rotateX('45');
+    }
+    100% {
+        transform: rotateX('0');
+    }
+}
+
+.register__container h2 {
+    color: var(--color-black);
+    margin-top: 1.4rem;
+}
+
+.register__container h4 {
+    color: var(--color-black);
+    display: inline;
+    margin-top: 1.4rem;
+}
+
+.sign__up__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.user__field {
+    position: relative;
+    box-shadow: 0 0 3rem 2px rgb(109, 116, 214);
+    padding: 1rem;
+    margin: 1rem 1.4rem;
+    border-radius: 1.2rem;
+    display: flex;
+    gap: 1rem
+}
+
+.field__icon {
+    width: 2rem;
+    font-size: 1rem;
+}
+
+.input[type="checkbox"] {
+    color: blueviolet
+}
+
+.sign__up__form p {
+    color: var(--color-black);
+    display: inline-block;
+    font-size: 0.7rem;
+}
+
+input {
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    border-radius: 2rem;
+    width: fit-content;
+    align-self: center;
+    padding: 1.2rem 2rem;
+    background: linear-gradient(45deg, rgb(132, 0, 255), rgb(109, 45, 170), rgb(60, 6, 160));
+    transition: var(--transition);
+    color: var(--color-white);
+    font-weight: bolder;
+    margin-top: 1.2rem;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 1.2rem 2rem 3rem rgba(#000, #000, #000, 0.7);
+}
+
+.sign__up__bottom p {
+    color: var(--color-black);
+}
+
+.sign__up__bottom a {
+    color: var(--color-primary);
+    font-weight: bolder;
+}
+
+
+/*  ============= Media for Tab And Mobile ============== */
+
+@media only screen and (max-width:1180px) {
+    .register {
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+    .register__container {
+        width: 60%;
+    }
+    .register__left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .register {
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+    .register__container {
+        width: 80%;
+        position: absolute;
+        top: 14rem;
+    }
+    .user__field {
+        padding: 0.7rem;
+        margin: 0.7rem 0.6rem;
+    }
+    .user__info__field {
+        width: 100%;
+    }
+    .register__left {
+        display: inline-block;
+    }
+}

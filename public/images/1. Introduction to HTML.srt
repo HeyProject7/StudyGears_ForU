@@ -1,0 +1,659 @@
+0
+1
+00:00:01,350 --> 00:00:08,710
+All right. So now let's tackle what exactly is HTML, and how do we use it to structure our web sites.
+1
+
+2
+00:00:09,000 --> 00:00:13,260
+So no matter what you use as your browser - it could be Chrome,
+2
+
+3
+00:00:13,290 --> 00:00:16,350
+it could be Safari or Firefox -
+3
+
+4
+00:00:16,380 --> 00:00:24,330
+they all have a single purpose, and that's to interpret your files such as your HTML files, your CSS files,
+4
+
+5
+00:00:24,330 --> 00:00:28,240
+your Javascript files, into a web site that should be displayed.
+5
+
+6
+00:00:28,260 --> 00:00:34,440
+So, for example, we've got a little bit of HTML code here that says that our web site should have a title
+6
+
+7
+00:00:34,440 --> 00:00:34,700
+called
+7
+
+8
+00:00:34,710 --> 00:00:35,410
+Hello.
+8
+
+9
+00:00:35,610 --> 00:00:40,180
+And in the body there should be a heading that says Hello World.
+9
+
+10
+00:00:40,200 --> 00:00:48,240
+So if we pass that code into our browser it will open it and display it like so, with the title of the
+10
+
+11
+00:00:48,240 --> 00:00:55,890
+web site usually on the tab bar, and that h1, or that big heading, showing up in the body of our web site.
+11
+
+12
+00:00:55,890 --> 00:01:02,580
+So, before we dive deep into this, it's really important to remember that HTML is the foundation of
+12
+
+13
+00:01:02,590 --> 00:01:03,780
+all web sites.
+13
+
+14
+00:01:03,810 --> 00:01:10,890
+So, for example, you won't see web sites that are created using just a CSS file or just a Javascript file
+14
+
+15
+00:01:11,100 --> 00:01:15,260
+but you can create web sites using just an HTML file.
+15
+
+16
+00:01:15,360 --> 00:01:17,510
+Now it might not look great.
+16
+
+17
+00:01:17,580 --> 00:01:23,970
+It'll probably look like it came from the 90s but it does enable your web site to display text or various
+17
+
+18
+00:01:23,970 --> 00:01:30,310
+elements such as images or forms or tables depending on how you code up the HTML file.
+18
+
+19
+00:01:30,420 --> 00:01:37,320
+So, HTML stands for Hypertext Markup Language, and the really important part here is the word
+19
+
+20
+00:01:37,410 --> 00:01:40,230
+markup because there's many markup languages.
+20
+
+21
+00:01:40,230 --> 00:01:47,400
+For example you might have heard of things such as XML, Extensible Markup Language, or GML, Generalized
+21
+
+22
+00:01:47,400 --> 00:01:51,850
+Markup Language, and all of these languages share a common history.
+22
+
+23
+00:01:52,010 --> 00:01:59,130
+They're based off the markup that used to be put into manuscripts where editors would mark up the manuscript
+23
+
+24
+00:01:59,280 --> 00:02:05,190
+and either specify changes to the author or specify structure and layout to the publishers.
+24
+
+25
+00:02:05,190 --> 00:02:11,580
+So for example you might have the squiggly line that shows the publishers that this part should be printed
+25
+
+26
+00:02:11,640 --> 00:02:19,000
+in bold or this part should be printed in italics, and HTML works in much the same way.
+26
+
+27
+00:02:19,140 --> 00:02:26,120
+You can specify the layout and structure of your website by using HTML tags.
+27
+
+28
+00:02:26,370 --> 00:02:32,610
+So if you head over to your browser and go to a web site called codepen.io, then we can have a
+28
+
+29
+00:02:32,610 --> 00:02:38,370
+look and have a play around with real life HTML. So, you don't have to sign up.
+29
+
+30
+00:02:38,460 --> 00:02:45,600
+Just head over to codepen.io, and then hit Create, New Pen, and then we're going to change the view
+30
+
+31
+00:02:45,630 --> 00:02:47,560
+to a format like this.
+31
+
+32
+00:02:47,580 --> 00:02:53,000
+So this is the live version of our web site and these are the places where we're going to put our code.
+32
+
+33
+00:02:53,130 --> 00:02:58,950
+So, as you can see, Code Pen let’s you put in HTML, CSS and Javascript, which will together get interpreted
+33
+
+34
+00:02:59,220 --> 00:03:01,680
+and get shown on the left as your web site.
+34
+
+35
+00:03:01,680 --> 00:03:08,760
+Now, as we're only working with HTML at the moment, I'm going to minimize the CSS and Javascript sections
+35
+
+36
+00:03:09,150 --> 00:03:13,500
+and I'm just going to work from the HTML section.
+36
+
+37
+00:03:13,680 --> 00:03:20,430
+Now we're going to need some text to work with or have something which we can give structure to.
+37
+
+38
+00:03:20,430 --> 00:03:27,870
+If you head over to gutenberg.org/ebooks/1661, you get taken to The Adventures of Sherlock
+38
+
+39
+00:03:27,870 --> 00:03:29,870
+Holmes by Arthur Conan Doyle.
+39
+
+40
+00:03:29,910 --> 00:03:32,760
+So one of my favorite books of all time.
+40
+
+41
+00:03:32,940 --> 00:03:37,990
+If you have a look down here you can see that you can view the book as plain text
+41
+
+42
+00:03:38,330 --> 00:03:42,750
+or you can read this book online as HTML.
+42
+
+43
+00:03:42,840 --> 00:03:45,870
+So this is what the plain text looks like.
+43
+
+44
+00:03:45,870 --> 00:03:51,390
+It has all of the text in the book but absolutely no structure.
+44
+
+45
+00:03:51,660 --> 00:03:58,200
+But, when we have a look at the HTML file, you can see that it has laid out the book with a structure
+45
+
+46
+00:03:58,500 --> 00:04:00,570
+that is more human readable.
+46
+
+47
+00:04:00,630 --> 00:04:04,030
+And this is what we're going to replicate using HTML.
+47
+
+48
+00:04:04,260 --> 00:04:10,620
+So if you go ahead and just copy this part -The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle -
+48
+
+49
+00:04:10,830 --> 00:04:14,670
+and you copy and place it into your pen,
+49
+
+50
+00:04:14,670 --> 00:04:22,530
+so in the HTML section here. Now you can see that all of this text gets put onto the screen with absolutely
+50
+
+51
+00:04:22,530 --> 00:04:23,410
+no structure.
+51
+
+52
+00:04:23,610 --> 00:04:29,900
+And in order for this to start looking like this we're going to start adding a little bit of HTML.
+52
+
+53
+00:04:30,120 --> 00:04:37,590
+So the first thing we can see is that this is the largest heading on the page. So we can make our website
+53
+
+54
+00:04:37,650 --> 00:04:38,460
+look like that
+54
+
+55
+00:04:38,490 --> 00:04:47,010
+also, by adding an h1 tag into our HTML. So the tags start with angular brackets and end with angular brackets
+55
+
+56
+00:04:47,040 --> 00:04:52,640
+and in the middle is the type of element or the type of tag you want to use.
+56
+
+57
+00:04:52,680 --> 00:04:58,950
+Now it's really important that when you open tags that you also close them, because as you can see here
+57
+
+58
+00:04:59,010 --> 00:05:00,510
+I've got an open tag
+58
+
+59
+00:05:00,700 --> 00:05:08,500
+but I have yet to close it, and it thinks that the entire contents of my page should be made into the
+59
+
+60
+00:05:08,500 --> 00:05:11,440
+largest heading possible and that's not what I want.
+60
+
+61
+00:05:11,440 --> 00:05:15,840
+I only want it for this section - The Adventures of Sherlock Holmes.
+61
+
+62
+00:05:16,090 --> 00:05:19,450
+So, in order to close the tag, it's the same angle brackets,
+62
+
+63
+00:05:19,510 --> 00:05:23,070
+but then I have to use a forward slash and then write h1.
+63
+
+64
+00:05:23,740 --> 00:05:30,180
+So now only this part is an h1 or a large heading.
+64
+
+65
+00:05:30,220 --> 00:05:36,280
+Now if we have a look at the other parts I would say that this word - by - is a little bit smaller than
+65
+
+66
+00:05:36,280 --> 00:05:37,380
+the author's name.
+66
+
+67
+00:05:37,480 --> 00:05:40,540
+So let's structure this as a heading also.
+67
+
+68
+00:05:40,630 --> 00:05:46,900
+But let's make it a subtitle so let's make it a slightly smaller heading and to do that we can simply
+68
+
+69
+00:05:46,900 --> 00:05:55,240
+wrap this text around an h2 tag. And now we have Sir Arthur Conan Doyle as a heading but in a smaller
+69
+
+70
+00:05:55,240 --> 00:05:58,870
+size and shown with less importance than the big title.
+70
+
+71
+00:05:58,870 --> 00:06:02,350
+So now finally we have this word - by -
+71
+
+72
+00:06:02,590 --> 00:06:10,900
+and I reckon that's one size smaller than this heading, so let's go ahead and wrap this inside an h3.
+72
+
+73
+00:06:11,620 --> 00:06:13,840
+So I hope you're starting to get the gist.
+73
+
+74
+00:06:14,050 --> 00:06:18,760
+The heading tags get smaller as the number goes up.
+74
+
+75
+00:06:18,760 --> 00:06:27,640
+So for example if I changed this to an h4 it gets even smaller, h5 smaller still, and all the way
+75
+
+76
+00:06:27,640 --> 00:06:34,000
+until h6, which is the smallest font size for the heading element.
+76
+
+77
+00:06:34,000 --> 00:06:40,400
+Now, if you keep going to h7, you'll notice that it doesn't do anything anymore.
+77
+
+78
+00:06:40,510 --> 00:06:49,420
+It doesn't change the heading size and that's because the heading elements only go from h1 to h6.
+78
+
+79
+00:06:49,420 --> 00:06:51,220
+Now how do I know that, 
+79
+
+80
+00:06:51,220 --> 00:06:52,480
+I hear you ask.
+80
+
+81
+00:06:52,480 --> 00:06:57,330
+So this is a good point in the course to introduce documentation.
+81
+
+82
+00:06:57,460 --> 00:07:04,270
+And the reason why I'm talking about it so early on is because of how important it is to your journey
+82
+
+83
+00:07:04,390 --> 00:07:06,110
+as a web developer.
+83
+
+84
+00:07:06,130 --> 00:07:12,280
+So one of the key skills in becoming a great web developer, or in fact any sort of programmer, is getting
+84
+
+85
+00:07:12,280 --> 00:07:19,310
+good at finding out how you can help yourself and a lot of that involves getting good at googling.
+85
+
+86
+00:07:19,330 --> 00:07:24,730
+How do you find the specific piece of information that's going to help you achieve what it is that you
+86
+
+87
+00:07:24,730 --> 00:07:28,120
+want or help you understand what it is that you want to know.
+87
+
+88
+00:07:28,390 --> 00:07:36,340
+So in this case we're talking about headings and we are using HTML and I'm going to add in the name of
+88
+
+89
+00:07:36,340 --> 00:07:42,920
+the documentation that I prefer to use which is MDN and it stands for the Mozilla Developer Network,
+89
+
+90
+00:07:42,940 --> 00:07:46,090
+so the same people who made Firefox for example.
+90
+
+91
+00:07:46,090 --> 00:07:48,200
+So if I go ahead and hit enter,
+91
+
+92
+00:07:48,460 --> 00:07:50,630
+you see a whole bunch of results come up.
+92
+
+93
+00:07:50,630 --> 00:07:56,130
+And the most relevant for us is the h1 to h6 and it talks about headings.
+93
+
+94
+00:07:56,140 --> 00:08:02,110
+So if we click on that you can learn more about the heading elements used in HTML and they even have
+94
+
+95
+00:08:02,110 --> 00:08:07,330
+example code snippets that show you what it would look like rendered in a browser.
+95
+
+96
+00:08:07,360 --> 00:08:10,530
+Now there's a couple of sources for documentation.
+96
+
+97
+00:08:10,630 --> 00:08:15,470
+One is of course MDN. Another one is called W3 Schools.
+97
+
+98
+00:08:15,580 --> 00:08:19,300
+So let's see if we try W3 Schools with HTML
+98
+
+99
+00:08:19,420 --> 00:08:21,650
+and we're talking about headings, right?
+99
+
+100
+00:08:21,710 --> 00:08:23,090
+Let’s see what we get here.
+100
+
+101
+00:08:23,470 --> 00:08:26,970
+So HTML Headings is the first result that comes up.
+101
+
+102
+00:08:27,010 --> 00:08:32,680
+And similarly you've got the code examples, you've got the results and you've got a little bit of notes
+102
+
+103
+00:08:32,830 --> 00:08:35,610
+that tell you how you should be using your headings.
+103
+
+104
+00:08:35,770 --> 00:08:42,990
+So both of these places have a lot of really useful usage notes and it's worth reading through when you’re 
+104
+
+105
+00:08:43,060 --> 00:08:45,460
+first coming across a particular element.
+105
+
+106
+00:08:45,520 --> 00:08:51,570
+That way you'll have a good foundation of knowledge when you start to build and create your own web sites.
+106
+
+107
+00:08:51,580 --> 00:08:56,430
+So I want to show you one last resource that I quite like using, which is called 
+107
+
+108
+00:08:56,470 --> 00:08:57,190
+devdocs.io.
+108
+
+109
+00:08:57,370 --> 00:09:03,100
+And this is basically a web site that puts together a lot of the useful documentation in a structure that
+109
+
+110
+00:09:03,100 --> 00:09:05,320
+I find to be quite handy.
+110
+
+111
+00:09:05,350 --> 00:09:13,630
+So if we have a look inside the HTML5 tab, and we go into the elements, we can see that there's a total
+111
+
+112
+00:09:13,630 --> 00:09:20,490
+of 135 elements and if you scroll down you can see that we've got h1 through to h6.
+112
+
+113
+00:09:20,530 --> 00:09:25,600
+And if you click on any of these then it brings up actually the MDN documentation so you can see
+113
+
+114
+00:09:25,600 --> 00:09:31,600
+that it's similar to what we saw on MDN but it's just structured in a very simple way and it's very
+114
+
+115
+00:09:31,600 --> 00:09:32,600
+easy to follow.
+115
+
+116
+00:09:32,680 --> 00:09:35,240
+So that's definitely a web site that's worth bookmarking.
+116
+
+117
+00:09:35,260 --> 00:09:41,380
+So if we head back over to our HTML file we’re going to change that back to an h3, which is an
+117
+
+118
+00:09:41,380 --> 00:09:46,280
+HTML tag that actually exists as opposed to something like h9.
+118
+
+119
+00:09:46,300 --> 00:09:52,150
+So the next thing that we need to do in order to better replicate this web site is to add some space
+119
+
+120
+00:09:52,270 --> 00:09:54,160
+between these lines.
+120
+
+121
+00:09:54,220 --> 00:10:00,620
+Now in a word processor such as Word or Google Docs you'll be able to simply just hit enter a few times or
+121
+
+122
+00:10:00,620 --> 00:10:04,240
+hit return a few times and get that spacing show up.
+122
+
+123
+00:10:04,320 --> 00:10:09,050
+Now unfortunately in HTML it doesn't quite work like that.
+123
+
+124
+00:10:09,050 --> 00:10:13,290
+It's a little bit more complicated. In order to create that spacing,
+124
+
+125
+00:10:13,310 --> 00:10:19,510
+we actually have to use an HTML element called a line break and it's written like so.
+125
+
+126
+00:10:19,670 --> 00:10:27,280
+And the interesting thing about this HTML element is that it doesn't require both an open and a close
+126
+
+127
+00:10:27,280 --> 00:10:28,020
+tag.
+127
+
+128
+00:10:28,040 --> 00:10:31,190
+So we have the h1 through to h6 tags.
+128
+
+129
+00:10:31,310 --> 00:10:38,090
+You can see that we started out by marking the text with an h1 and then we close it off with a closing
+129
+
+130
+00:10:38,090 --> 00:10:45,530
+tag but the line break element works all by itself and you can even put it inside like so to make this
+130
+
+131
+00:10:45,530 --> 00:10:47,390
+part go onto a new line.
+131
+
+132
+00:10:47,390 --> 00:10:52,690
+Now this is a good time point to review the anatomy of HTML tags.

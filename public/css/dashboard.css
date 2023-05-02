@@ -1,0 +1,89 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+h2[class="text-center"] {
+    margin-bottom: 2rem;
+}
+
+.admin__info {
+    display: grid;
+    margin: 2rem;
+    grid-gap: 0.8rem;
+    grid-template-columns: 20% 80%;
+}
+
+.dash__menu {
+    background: var(--color-blue);
+    height: 100vh;
+}
+
+.dash__content {
+    height: 100vh;
+    padding-top: 3rem;
+    overflow-y: scroll;
+}
+
+.menus {
+    margin-top: 2rem;
+}
+
+.admin__course__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dash__item {
+    border-bottom: 2px solid rgb(84, 14, 112);
+}
+
+.dash__item:hover {
+    background: var(--color-bg);
+}
+
+.dash__label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* Overviews  */
+
+.overview__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.8rem;
+}
+
+
+/* Peoples */
+
+.people__item {
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #271e58;
+}
+
+.people__item:hover {
+    background: var(--color-bg1);
+}
+
+.people__image {
+    background: url('../images/testinomials__user2.jpg');
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0.7rem 1.7rem 0.7rem;
+}
+
+.people__name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
