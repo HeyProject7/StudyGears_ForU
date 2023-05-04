@@ -94,8 +94,21 @@ html,body{
       .share__icon__img{
         background: url('../images/refer8.png');
         background-repeat: no-repeat;
+        background-size: 100% 100%;
         width:40vw;
         position: relative;
         bottom:-3rem;
         height:50vh;
+      }
+      @media only screen and (max-width: 600px){
+        .share{
+          grid-template-columns: 1fr;
+        }
+        .share__course__container{
+          margin-top:-4rem !important;
+          width:87vw !important;
+        }
+        .share__icon__img{
+          height:38vh;
+        }
       }
